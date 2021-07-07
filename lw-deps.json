@@ -1,0 +1,7057 @@
+{
+  "LessWrong": {
+    "in": [],
+    "out": [
+      "@apollo/client",
+      "@babel/runtime",
+      "@google/maps",
+      "@googlemaps/google-maps-services-js",
+      "@lesswrong/lesswrong-editor",
+      "@material-ui/core",
+      "@material-ui/icons",
+      "@material-ui/lab",
+      "@sentry/browser",
+      "@sentry/core",
+      "@sentry/integrations",
+      "@sentry/node",
+      "@std/esm",
+      "@stripe/stripe-js",
+      "@types/algoliasearch",
+      "@types/bcrypt",
+      "@types/chai-as-promised",
+      "@types/cheerio",
+      "@types/classnames",
+      "@types/cookie-parser",
+      "@types/crypto-js",
+      "@types/draft-convert",
+      "@types/draft-js",
+      "@types/enzyme",
+      "@types/express",
+      "@types/express-session",
+      "@types/gapi",
+      "@types/google__maps",
+      "@types/graphql-date",
+      "@types/graphql-type-json",
+      "@types/html-to-text",
+      "@types/htmlparser2",
+      "@types/intercom-client",
+      "@types/jest",
+      "@types/jsdom",
+      "@types/jsonwebtoken",
+      "@types/later",
+      "@types/lodash",
+      "@types/lolex",
+      "@types/lru-cache",
+      "@types/markdown-it",
+      "@types/markdown-it-container",
+      "@types/mocha",
+      "@types/moment",
+      "@types/mongodb",
+      "@types/mz",
+      "@types/node",
+      "@types/node-fetch",
+      "@types/nodemailer",
+      "@types/papaparse",
+      "@types/passport",
+      "@types/passport-auth0",
+      "@types/passport-facebook",
+      "@types/passport-github2",
+      "@types/passport-google-oauth20",
+      "@types/passport-strategy",
+      "@types/pg",
+      "@types/qs",
+      "@types/react",
+      "@types/react-autosuggest",
+      "@types/react-copy-to-clipboard",
+      "@types/react-dom",
+      "@types/react-geosuggest",
+      "@types/react-helmet",
+      "@types/react-instantsearch",
+      "@types/react-instantsearch-dom",
+      "@types/react-map-gl",
+      "@types/react-no-ssr",
+      "@types/react-router",
+      "@types/react-router-dom",
+      "@types/recompose",
+      "@types/request",
+      "@types/rss",
+      "@types/sanitize-html",
+      "@types/simpl-schema",
+      "@types/speakingurl",
+      "@types/turndown",
+      "@types/underscore",
+      "@types/uuid",
+      "akismet-api",
+      "algoliasearch",
+      "apollo-errors",
+      "apollo-server",
+      "apollo-server-express",
+      "bcrypt",
+      "body-parser",
+      "bowser",
+      "cheerio",
+      "chokidar",
+      "classnames",
+      "cloudinary",
+      "cloudinary-core",
+      "cloudinary-react",
+      "compression",
+      "connect-mongo",
+      "cookie-parser",
+      "crypto-js",
+      "dataloader",
+      "deepmerge",
+      "draft-convert",
+      "draft-js",
+      "draft-js-alignment-plugin",
+      "draft-js-anchor-plugin",
+      "draft-js-block-breakout-plugin",
+      "draft-js-buttons",
+      "draft-js-divider-plugin",
+      "draft-js-focus-plugin",
+      "draft-js-image-plugin",
+      "draft-js-inline-toolbar-plugin",
+      "draft-js-linkify-plugin",
+      "draft-js-markdown-shortcuts-plugin",
+      "draft-js-mathjax-plugin",
+      "draft-js-plugins-editor",
+      "draft-js-resizeable-plugin",
+      "draft-js-richbuttons-plugin",
+      "element-closest",
+      "enzyme",
+      "enzyme-adapter-react-16",
+      "escape-string-regexp",
+      "estrella",
+      "express",
+      "express-session",
+      "feedparser-promised",
+      "graphql",
+      "graphql-date",
+      "graphql-server-express",
+      "graphql-tag",
+      "graphql-tools",
+      "graphql-type-json",
+      "graphql-voyager",
+      "he",
+      "history",
+      "html-to-text",
+      "htmlparser2",
+      "import",
+      "intercom-client",
+      "intl",
+      "jsdom",
+      "jsonwebtoken",
+      "juice",
+      "later",
+      "logrocket",
+      "lolex",
+      "lru-cache",
+      "mapbox-gl",
+      "markdown-it",
+      "markdown-it-container",
+      "markdown-it-footnote",
+      "markdown-it-sub",
+      "markdown-it-sup",
+      "mathjax",
+      "mathjax-node",
+      "mathjax-node-page",
+      "mingo",
+      "moment",
+      "mongodb",
+      "mz",
+      "nodemailer",
+      "papaparse",
+      "passport",
+      "passport-auth0",
+      "passport-custom",
+      "passport-facebook",
+      "passport-github2",
+      "passport-google-oauth20",
+      "passport-local",
+      "path-to-regexp",
+      "pg",
+      "pg-promise",
+      "prop-types",
+      "qs",
+      "raf",
+      "react",
+      "react-autosuggest",
+      "react-bootstrap",
+      "react-cookie",
+      "react-copy-to-clipboard",
+      "react-datetime",
+      "react-dom",
+      "react-geosuggest",
+      "react-helmet",
+      "react-instantsearch",
+      "react-instantsearch-core",
+      "react-instantsearch-dom",
+      "react-intercom",
+      "react-jss",
+      "react-map-gl",
+      "react-no-ssr",
+      "react-router",
+      "react-router-dom",
+      "react-sortable-hoc",
+      "react-test-renderer",
+      "recompose",
+      "request",
+      "rss",
+      "sanitize-html",
+      "setimmediate",
+      "shallowequal",
+      "simpl-schema",
+      "source-map-support",
+      "speakingurl",
+      "stripe",
+      "tlds",
+      "turndown",
+      "turndown-plugin-gfm",
+      "type-fest",
+      "typescript",
+      "underscore",
+      "universal-cookie",
+      "universal-cookie-express",
+      "url",
+      "ws"
+    ]
+  },
+  "@types/chai-as-promised": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [
+      "@types/chai"
+    ]
+  },
+  "@types/bcrypt": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [
+      "@types/node"
+    ]
+  },
+  "@types/crypto-js": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": []
+  },
+  "@types/react-no-ssr": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [
+      "@types/react"
+    ]
+  },
+  "@types/node": {
+    "in": [
+      "@types/bcrypt",
+      "@types/node-fetch",
+      "@types/request",
+      "@types/htmlparser2",
+      "@types/mongodb",
+      "@types/papaparse",
+      "@types/express-serve-static-core",
+      "@types/jsonwebtoken",
+      "@types/mz",
+      "@types/body-parser",
+      "@types/express-serve-static-core",
+      "@types/connect",
+      "@types/oauth",
+      "@types/bson",
+      "@types/glob",
+      "@apollo/protobufjs",
+      "@types/websocket",
+      "@apollo/protobufjs",
+      "@types/accepts",
+      "@types/body-parser",
+      "@types/express-serve-static-core"
+    ],
+    "out": []
+  },
+  "algoliasearch": {
+    "in": [
+      "LessWrong",
+      "react-instantsearch-native"
+    ],
+    "out": [
+      "@algolia/cache-browser-local-storage",
+      "@algolia/cache-common",
+      "@algolia/cache-in-memory",
+      "@algolia/client-account",
+      "@algolia/client-analytics",
+      "@algolia/client-common",
+      "@algolia/client-recommendation",
+      "@algolia/client-search",
+      "@algolia/logger-common",
+      "@algolia/logger-console",
+      "@algolia/requester-browser-xhr",
+      "@algolia/requester-common",
+      "@algolia/requester-node-http",
+      "@algolia/transporter"
+    ]
+  },
+  "mapbox-gl": {
+    "in": [
+      "LessWrong",
+      "react-map-gl"
+    ],
+    "out": [
+      "@mapbox/geojson-rewind",
+      "@mapbox/geojson-types",
+      "@mapbox/jsonlint-lines-primitives",
+      "@mapbox/mapbox-gl-supported",
+      "@mapbox/point-geometry",
+      "@mapbox/tiny-sdf",
+      "@mapbox/unitbezier",
+      "@mapbox/vector-tile",
+      "@mapbox/whoots-js",
+      "csscolorparser",
+      "earcut",
+      "geojson-vt",
+      "gl-matrix",
+      "grid-index",
+      "minimist",
+      "murmurhash-js",
+      "pbf",
+      "potpack",
+      "quickselect",
+      "rw",
+      "supercluster",
+      "tinyqueue",
+      "vt-pbf"
+    ]
+  },
+  "nodemailer": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": []
+  },
+  "jsdom": {
+    "in": [
+      "LessWrong",
+      "mathjax-node"
+    ],
+    "out": [
+      "abab",
+      "acorn",
+      "acorn-globals",
+      "array-equal",
+      "content-type-parser",
+      "cssom",
+      "cssstyle",
+      "escodegen",
+      "html-encoding-sniffer",
+      "iconv-lite",
+      "nwmatcher",
+      "parse5",
+      "request",
+      "sax",
+      "symbol-tree",
+      "tough-cookie",
+      "webidl-conversions",
+      "whatwg-encoding",
+      "whatwg-url",
+      "xml-name-validator"
+    ]
+  },
+  "react-router": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [
+      "prop-types"
+    ]
+  },
+  "simpl-schema": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [
+      "clone",
+      "message-box",
+      "mongo-object"
+    ]
+  },
+  "sanitize-html": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [
+      "deepmerge",
+      "escape-string-regexp",
+      "htmlparser2",
+      "is-plain-object",
+      "klona",
+      "parse-srcset",
+      "postcss"
+    ]
+  },
+  "graphql": {
+    "in": [
+      "LessWrong",
+      "@types/graphql-date"
+    ],
+    "out": []
+  },
+  "react-dom": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [
+      "loose-envify",
+      "object-assign",
+      "scheduler"
+    ]
+  },
+  "pg": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [
+      "buffer-writer",
+      "packet-reader",
+      "pg-connection-string",
+      "pg-pool",
+      "pg-protocol",
+      "pg-types",
+      "pgpass"
+    ]
+  },
+  "react-map-gl": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [
+      "@babel/runtime",
+      "@types/geojson",
+      "@types/mapbox-gl",
+      "mapbox-gl",
+      "mjolnir.js",
+      "prop-types",
+      "resize-observer-polyfill",
+      "viewport-mercator-project"
+    ]
+  },
+  "react-test-renderer": {
+    "in": [
+      "LessWrong",
+      "enzyme-adapter-react-16"
+    ],
+    "out": [
+      "object-assign",
+      "react-is",
+      "react-shallow-renderer",
+      "scheduler"
+    ]
+  },
+  "react-jss": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [
+      "hoist-non-react-statics",
+      "jss",
+      "jss-preset-default",
+      "prop-types",
+      "theming"
+    ]
+  },
+  "react-sortable-hoc": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [
+      "@babel/runtime",
+      "invariant",
+      "prop-types"
+    ]
+  },
+  "@sentry/integrations": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [
+      "@sentry/types",
+      "@sentry/utils",
+      "localforage",
+      "tslib"
+    ]
+  },
+  "connect-mongo": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [
+      "debug",
+      "kruptein",
+      "mongodb"
+    ]
+  },
+  "@google/maps": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [
+      "https-proxy-agent",
+      "uuid"
+    ],
+    "deprecated": true
+  },
+  "@std/esm": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": []
+  },
+  "@types/react": {
+    "in": [
+      "@types/react-no-ssr",
+      "@types/react-geosuggest",
+      "@types/draft-js",
+      "@types/react-instantsearch-core",
+      "@types/react-router-dom",
+      "@types/react-map-gl",
+      "@types/react-copy-to-clipboard",
+      "@types/react-redux",
+      "@types/hoist-non-react-statics",
+      "@types/react-is"
+    ],
+    "out": [
+      "@types/prop-types",
+      "@types/scheduler",
+      "csstype"
+    ]
+  },
+  "@types/jest": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [
+      "jest-diff",
+      "pretty-format"
+    ]
+  },
+  "@sentry/node": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [
+      "@sentry/core",
+      "@sentry/hub",
+      "@sentry/tracing",
+      "@sentry/types",
+      "@sentry/utils",
+      "cookie",
+      "https-proxy-agent",
+      "lru_map",
+      "tslib"
+    ]
+  },
+  "@types/chai": {
+    "in": [
+      "@types/chai-as-promised"
+    ],
+    "out": []
+  },
+  "request": {
+    "in": [
+      "jsdom",
+      "intercom-client"
+    ],
+    "out": [],
+    "deprecated": true
+  },
+  "react-instantsearch": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [
+      "@babel/runtime",
+      "react-instantsearch-core",
+      "react-instantsearch-dom",
+      "react-instantsearch-native"
+    ]
+  },
+  "stripe": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [
+      "@types/node",
+      "qs"
+    ]
+  },
+  "mongodb": {
+    "in": [
+      "connect-mongo"
+    ],
+    "out": [
+      "bson",
+      "denque",
+      "mongodb-connection-string-url",
+      "saslprep"
+    ]
+  },
+  "@sentry/core": {
+    "in": [
+      "@sentry/node"
+    ],
+    "out": [
+      "@sentry/hub",
+      "@sentry/minimal",
+      "@sentry/types",
+      "@sentry/utils",
+      "tslib"
+    ]
+  },
+  "@types/later": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": []
+  },
+  "@types/passport-auth0": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [
+      "@types/express",
+      "@types/passport"
+    ]
+  },
+  "@mapbox/tiny-sdf": {
+    "in": [
+      "mapbox-gl"
+    ],
+    "out": []
+  },
+  "@sentry/browser": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [
+      "@sentry/core",
+      "@sentry/types",
+      "@sentry/utils",
+      "tslib"
+    ]
+  },
+  "@material-ui/lab": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [
+      "@babel/runtime",
+      "@material-ui/utils",
+      "clsx",
+      "prop-types",
+      "react-is"
+    ]
+  },
+  "graphql-tools": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [
+      "@graphql-tools/batch-delegate",
+      "@graphql-tools/batch-execute",
+      "@graphql-tools/code-file-loader",
+      "@graphql-tools/delegate",
+      "@graphql-tools/git-loader",
+      "@graphql-tools/github-loader",
+      "@graphql-tools/graphql-file-loader",
+      "@graphql-tools/graphql-tag-pluck",
+      "@graphql-tools/import",
+      "@graphql-tools/json-file-loader",
+      "@graphql-tools/links",
+      "@graphql-tools/load",
+      "@graphql-tools/load-files",
+      "@graphql-tools/merge",
+      "@graphql-tools/mock",
+      "@graphql-tools/module-loader",
+      "@graphql-tools/optimize",
+      "@graphql-tools/relay-operation-optimizer",
+      "@graphql-tools/resolvers-composition",
+      "@graphql-tools/schema",
+      "@graphql-tools/stitch",
+      "@graphql-tools/url-loader",
+      "@graphql-tools/utils",
+      "@graphql-tools/wrap",
+      "tslib"
+    ]
+  },
+  "tinyqueue": {
+    "in": [
+      "mapbox-gl"
+    ],
+    "out": []
+  },
+  "@types/lodash": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": []
+  },
+  "@googlemaps/google-maps-services-js": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [
+      "agentkeepalive",
+      "axios",
+      "query-string",
+      "retry-axios"
+    ]
+  },
+  "@types/lru-cache": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": []
+  },
+  "@types/markdown-it-container": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [
+      "@types/markdown-it"
+    ]
+  },
+  "@types/jsdom": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [
+      "@types/jquery",
+      "@types/node"
+    ]
+  },
+  "@types/react-router": {
+    "in": [
+      "LessWrong",
+      "@types/react-router-dom"
+    ],
+    "out": [
+      "@types/history",
+      "@types/react"
+    ]
+  },
+  "@types/markdown-it": {
+    "in": [
+      "@types/markdown-it-container"
+    ],
+    "out": [
+      "@types/highlight.js",
+      "@types/linkify-it",
+      "@types/mdurl"
+    ]
+  },
+  "@types/node-fetch": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [
+      "@types/node",
+      "form-data"
+    ]
+  },
+  "@types/react-dom": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [
+      "@types/react"
+    ]
+  },
+  "@babel/runtime": {
+    "in": [
+      "@material-ui/lab",
+      "@material-ui/utils",
+      "css-vendor"
+    ],
+    "out": [
+      "regenerator-runtime"
+    ]
+  },
+  "mongo-object": {
+    "in": [
+      "simpl-schema"
+    ],
+    "out": []
+  },
+  "@types/react-instantsearch-dom": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [
+      "@types/react",
+      "@types/react-instantsearch-core"
+    ]
+  },
+  "@types/request": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [
+      "@types/caseless",
+      "@types/node",
+      "@types/tough-cookie",
+      "form-data"
+    ]
+  },
+  "akismet-api": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [
+      "bluebird",
+      "superagent"
+    ]
+  },
+  "invariant": {
+    "in": [
+      "react-sortable-hoc",
+      "draft-convert",
+      "react-css-themr"
+    ],
+    "out": [
+      "loose-envify"
+    ]
+  },
+  "prop-types": {
+    "in": [
+      "@material-ui/lab",
+      "react-instantsearch-core",
+      "react-redux",
+      "react-instantsearch-core",
+      "@material-ui/utils",
+      "react-modal"
+    ],
+    "out": [
+      "loose-envify",
+      "object-assign",
+      "react-is"
+    ]
+  },
+  "cookie-parser": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [
+      "cookie",
+      "cookie-signature"
+    ]
+  },
+  "ws": {
+    "in": [
+      "LessWrong",
+      "@graphql-tools/url-loader",
+      "subscriptions-transport-ws"
+    ],
+    "out": []
+  },
+  "theming": {
+    "in": [
+      "react-jss"
+    ],
+    "out": [
+      "hoist-non-react-statics",
+      "prop-types",
+      "react-display-name",
+      "tiny-warning"
+    ]
+  },
+  "draft-js-divider-plugin": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [
+      "decorate-component-with-props",
+      "prop-types",
+      "union-class-names"
+    ]
+  },
+  "@types/htmlparser2": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [
+      "@types/node"
+    ]
+  },
+  "@types/graphql-date": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [
+      "graphql"
+    ]
+  },
+  "@types/express": {
+    "in": [
+      "@types/passport-auth0",
+      "@types/passport",
+      "@types/passport-google-oauth20",
+      "@types/express-session",
+      "@types/passport-facebook",
+      "@types/passport-github2",
+      "@types/passport-oauth2",
+      "@types/passport-oauth2"
+    ],
+    "out": [
+      "@types/body-parser",
+      "@types/express-serve-static-core",
+      "@types/qs",
+      "@types/serve-static"
+    ]
+  },
+  "geojson-vt": {
+    "in": [
+      "mapbox-gl"
+    ],
+    "out": []
+  },
+  "@types/passport": {
+    "in": [
+      "LessWrong",
+      "@types/passport-google-oauth20",
+      "@types/passport-facebook",
+      "@types/passport-github2",
+      "@types/passport-oauth2",
+      "@types/passport-oauth2"
+    ],
+    "out": [
+      "@types/express"
+    ]
+  },
+  "draft-js-focus-plugin": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [
+      "clsx",
+      "immutable"
+    ],
+    "deprecated": true
+  },
+  "@algolia/transporter": {
+    "in": [
+      "algoliasearch",
+      "@algolia/client-search",
+      "@algolia/client-recommendation",
+      "@algolia/client-common",
+      "@algolia/client-analytics",
+      "@algolia/client-common",
+      "@algolia/client-common"
+    ],
+    "out": [
+      "@algolia/cache-common",
+      "@algolia/logger-common",
+      "@algolia/requester-common"
+    ]
+  },
+  "@types/cheerio": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": []
+  },
+  "@algolia/client-search": {
+    "in": [
+      "algoliasearch",
+      "@algolia/client-analytics"
+    ],
+    "out": [
+      "@algolia/client-common",
+      "@algolia/requester-common",
+      "@algolia/transporter"
+    ]
+  },
+  "@algolia/requester-browser-xhr": {
+    "in": [
+      "algoliasearch"
+    ],
+    "out": [
+      "@algolia/requester-common"
+    ]
+  },
+  "@algolia/requester-node-http": {
+    "in": [
+      "algoliasearch"
+    ],
+    "out": [
+      "@algolia/requester-common"
+    ]
+  },
+  "@types/cookie-parser": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [
+      "@types/express"
+    ]
+  },
+  "@algolia/cache-in-memory": {
+    "in": [
+      "algoliasearch"
+    ],
+    "out": [
+      "@algolia/cache-common"
+    ]
+  },
+  "@types/gapi": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": []
+  },
+  "@types/html-to-text": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": []
+  },
+  "@types/classnames": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [
+      "classnames"
+    ],
+    "deprecated": true
+  },
+  "@algolia/cache-common": {
+    "in": [
+      "@algolia/cache-in-memory"
+    ],
+    "out": []
+  },
+  "acorn": {
+    "in": [
+      "jsdom"
+    ],
+    "out": []
+  },
+  "cheerio": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [
+      "cheerio-select",
+      "dom-serializer",
+      "domhandler",
+      "htmlparser2",
+      "parse5",
+      "parse5-htmlparser2-tree-adapter",
+      "tslib"
+    ]
+  },
+  "@types/mongodb": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [
+      "@types/bson",
+      "@types/node"
+    ]
+  },
+  "apollo-server-express": {
+    "in": [
+      "LessWrong",
+      "apollo-server"
+    ],
+    "out": [
+      "@types/accepts",
+      "@types/body-parser",
+      "@types/cors",
+      "@types/express",
+      "@types/express-serve-static-core",
+      "accepts",
+      "apollo-server-core",
+      "apollo-server-types",
+      "body-parser",
+      "cors",
+      "parseurl"
+    ]
+  },
+  "gl-matrix": {
+    "in": [
+      "mapbox-gl",
+      "@types/viewport-mercator-project",
+      "@math.gl/web-mercator"
+    ],
+    "out": []
+  },
+  "grid-index": {
+    "in": [
+      "mapbox-gl"
+    ],
+    "out": []
+  },
+  "agentkeepalive": {
+    "in": [
+      "@googlemaps/google-maps-services-js"
+    ],
+    "out": [
+      "debug",
+      "depd",
+      "humanize-ms"
+    ]
+  },
+  "draft-js": {
+    "in": [
+      "LessWrong",
+      "draft-js-markdown-shortcuts-plugin",
+      "draft-js-modifiers"
+    ],
+    "out": [
+      "fbjs",
+      "immutable",
+      "object-assign"
+    ]
+  },
+  "draft-js-resizeable-plugin": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [],
+    "deprecated": true
+  },
+  "draft-convert": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [
+      "@babel/runtime",
+      "immutable",
+      "invariant"
+    ]
+  },
+  "markdown-it-footnote": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": []
+  },
+  "apollo-server": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [
+      "apollo-server-core",
+      "apollo-server-express",
+      "express",
+      "stoppable"
+    ]
+  },
+  "@types/react-geosuggest": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [
+      "@types/googlemaps",
+      "@types/react"
+    ]
+  },
+  "@types/lolex": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": []
+  },
+  "enzyme-adapter-react-16": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [
+      "enzyme-adapter-utils",
+      "function.prototype.name",
+      "object.assign",
+      "object.values",
+      "prop-types",
+      "react-is",
+      "react-test-renderer"
+    ]
+  },
+  "draft-js-markdown-shortcuts-plugin": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [
+      "decorate-component-with-props",
+      "draft-js",
+      "draft-js-checkable-list-item",
+      "draft-js-prism-plugin",
+      "immutable"
+    ]
+  },
+  "markdown-it": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [
+      "argparse",
+      "entities",
+      "linkify-it",
+      "mdurl",
+      "uc.micro"
+    ]
+  },
+  "@types/highlight.js": {
+    "in": [
+      "@types/markdown-it",
+      "@types/markdown-it"
+    ],
+    "out": []
+  },
+  "@algolia/client-recommendation": {
+    "in": [
+      "algoliasearch"
+    ],
+    "out": [
+      "@algolia/client-common",
+      "@algolia/requester-common",
+      "@algolia/transporter"
+    ]
+  },
+  "later": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [],
+    "deprecated": true
+  },
+  "logrocket": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": []
+  },
+  "@types/papaparse": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [
+      "@types/node"
+    ]
+  },
+  "regenerator-runtime": {
+    "in": [
+      "@babel/runtime",
+      "@babel/runtime",
+      "@babel/runtime"
+    ],
+    "out": []
+  },
+  "mathjax-node-page": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [
+      "mathjax-node",
+      "yargs"
+    ],
+    "deprecated": true
+  },
+  "@algolia/client-common": {
+    "in": [
+      "@algolia/client-search"
+    ],
+    "out": [
+      "@algolia/requester-common",
+      "@algolia/transporter"
+    ]
+  },
+  "graphql-voyager": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [
+      "@f/animate",
+      "classnames",
+      "clipboard",
+      "graphql-request",
+      "lodash",
+      "marked",
+      "react-modal",
+      "react-redux",
+      "react-style-proptype",
+      "react-toolbox",
+      "redux",
+      "redux-thunk",
+      "reselect",
+      "svg-pan-zoom"
+    ]
+  },
+  "typescript": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": []
+  },
+  "mathjax": {
+    "in": [
+      "LessWrong",
+      "mathjax-node"
+    ],
+    "out": []
+  },
+  "@algolia/client-analytics": {
+    "in": [
+      "algoliasearch"
+    ],
+    "out": [
+      "@algolia/client-common",
+      "@algolia/client-search",
+      "@algolia/requester-common",
+      "@algolia/transporter"
+    ]
+  },
+  "form-data": {
+    "in": [
+      "@types/node-fetch",
+      "superagent",
+      "@graphql-tools/links",
+      "@graphql-tools/url-loader"
+    ],
+    "out": [
+      "asynckit",
+      "combined-stream",
+      "mime-types"
+    ]
+  },
+  "setimmediate": {
+    "in": [
+      "LessWrong",
+      "fbjs",
+      "fbjs",
+      "fbjs"
+    ],
+    "out": []
+  },
+  "decorate-component-with-props": {
+    "in": [
+      "draft-js-markdown-shortcuts-plugin"
+    ],
+    "out": []
+  },
+  "object-assign": {
+    "in": [
+      "draft-js",
+      "react",
+      "scheduler"
+    ],
+    "out": []
+  },
+  "react-display-name": {
+    "in": [
+      "theming"
+    ],
+    "out": []
+  },
+  "supercluster": {
+    "in": [
+      "mapbox-gl"
+    ],
+    "out": [
+      "kdbush"
+    ]
+  },
+  "content-type-parser": {
+    "in": [
+      "jsdom"
+    ],
+    "out": []
+  },
+  "react-shallow-renderer": {
+    "in": [
+      "react-test-renderer"
+    ],
+    "out": [
+      "object-assign",
+      "react-is"
+    ]
+  },
+  "@types/prop-types": {
+    "in": [
+      "@types/react",
+      "@material-ui/utils"
+    ],
+    "out": []
+  },
+  "react-is": {
+    "in": [
+      "@material-ui/lab"
+    ],
+    "out": []
+  },
+  "tlds": {
+    "in": [
+      "LessWrong",
+      "draft-js-linkify-plugin"
+    ],
+    "out": []
+  },
+  "deepmerge": {
+    "in": [
+      "sanitize-html"
+    ],
+    "out": []
+  },
+  "express": {
+    "in": [
+      "apollo-server"
+    ],
+    "out": [
+      "accepts",
+      "array-flatten",
+      "body-parser",
+      "content-disposition",
+      "content-type",
+      "cookie",
+      "cookie-signature",
+      "debug",
+      "depd",
+      "encodeurl",
+      "escape-html",
+      "etag",
+      "finalhandler",
+      "fresh",
+      "merge-descriptors",
+      "methods",
+      "on-finished",
+      "parseurl",
+      "path-is-absolute",
+      "proxy-addr",
+      "qs",
+      "range-parser",
+      "router",
+      "safe-buffer",
+      "send",
+      "serve-static",
+      "setprototypeof",
+      "statuses",
+      "type-is",
+      "utils-merge",
+      "vary"
+    ]
+  },
+  "apollo-errors": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [
+      "assert",
+      "extendable-error"
+    ]
+  },
+  "quickselect": {
+    "in": [
+      "mapbox-gl"
+    ],
+    "out": []
+  },
+  "@sentry/utils": {
+    "in": [
+      "@sentry/core",
+      "@sentry/core"
+    ],
+    "out": [
+      "@sentry/types",
+      "tslib"
+    ]
+  },
+  "chokidar": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [
+      "anymatch",
+      "braces",
+      "glob-parent",
+      "is-binary-path",
+      "is-glob",
+      "normalize-path",
+      "readdirp",
+      "fsevents"
+    ]
+  },
+  "@sentry/types": {
+    "in": [
+      "@sentry/utils"
+    ],
+    "out": []
+  },
+  "array-equal": {
+    "in": [
+      "jsdom"
+    ],
+    "out": []
+  },
+  "compression": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [
+      "accepts",
+      "bytes",
+      "compressible",
+      "debug",
+      "on-headers",
+      "safe-buffer",
+      "vary"
+    ]
+  },
+  "lru_map": {
+    "in": [
+      "@sentry/node"
+    ],
+    "out": []
+  },
+  "https-proxy-agent": {
+    "in": [
+      "@google/maps",
+      "@mapbox/node-pre-gyp"
+    ],
+    "out": [
+      "agent-base",
+      "debug"
+    ]
+  },
+  "@algolia/logger-console": {
+    "in": [
+      "algoliasearch"
+    ],
+    "out": [
+      "@algolia/logger-common"
+    ]
+  },
+  "type-fest": {
+    "in": [
+      "LessWrong",
+      "read-pkg-up",
+      "read-pkg"
+    ],
+    "out": []
+  },
+  "@types/draft-js": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [
+      "immutable",
+      "@types/react"
+    ]
+  },
+  "csstype": {
+    "in": [
+      "@types/react"
+    ],
+    "out": []
+  },
+  "loose-envify": {
+    "in": [
+      "prop-types",
+      "react",
+      "prop-types",
+      "fbjs",
+      "react-redux",
+      "fbjs",
+      "fbjs",
+      "warning",
+      "warning",
+      "warning",
+      "warning",
+      "react"
+    ],
+    "out": [
+      "js-tokens"
+    ]
+  },
+  "draft-js-mathjax-plugin": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": []
+  },
+  "asynckit": {
+    "in": [
+      "form-data",
+      "form-data"
+    ],
+    "out": []
+  },
+  "@types/tough-cookie": {
+    "in": [
+      "@types/request"
+    ],
+    "out": []
+  },
+  "saslprep": {
+    "in": [
+      "mongodb",
+      "mongodb"
+    ],
+    "out": [
+      "sparse-bitfield"
+    ]
+  },
+  "escape-string-regexp": {
+    "in": [
+      "sanitize-html"
+    ],
+    "out": []
+  },
+  "mongodb-connection-string-url": {
+    "in": [
+      "mongodb",
+      "mongodb"
+    ],
+    "out": [
+      "whatwg-url"
+    ]
+  },
+  "scheduler": {
+    "in": [
+      "react-dom"
+    ],
+    "out": [
+      "object-assign"
+    ]
+  },
+  "draft-js-linkify-plugin": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [
+      "clsx",
+      "linkify-it",
+      "tlds"
+    ],
+    "deprecated": true
+  },
+  "debug": {
+    "in": [
+      "express",
+      "agent-base"
+    ],
+    "out": [
+      "ms"
+    ]
+  },
+  "kdbush": {
+    "in": [
+      "supercluster"
+    ],
+    "out": []
+  },
+  "@types/googlemaps": {
+    "in": [
+      "@types/react-geosuggest"
+    ],
+    "out": [],
+    "deprecated": true
+  },
+  "@types/react-instantsearch-core": {
+    "in": [
+      "@types/react-instantsearch-dom"
+    ],
+    "out": [
+      "@types/algoliasearch-helper",
+      "@types/react"
+    ]
+  },
+  "symbol-tree": {
+    "in": [
+      "jsdom"
+    ],
+    "out": []
+  },
+  "escodegen": {
+    "in": [
+      "jsdom"
+    ],
+    "out": [
+      "estraverse",
+      "esutils",
+      "esprima",
+      "optionator",
+      "source-map"
+    ]
+  },
+  "nwmatcher": {
+    "in": [
+      "jsdom"
+    ],
+    "out": []
+  },
+  "pg-types": {
+    "in": [
+      "pg"
+    ],
+    "out": [
+      "pg-int8",
+      "pg-numeric",
+      "postgres-array",
+      "postgres-bytea",
+      "postgres-date",
+      "postgres-interval"
+    ]
+  },
+  "whatwg-encoding": {
+    "in": [
+      "jsdom",
+      "html-encoding-sniffer"
+    ],
+    "out": [
+      "iconv-lite"
+    ]
+  },
+  "@graphql-tools/wrap": {
+    "in": [
+      "graphql-tools",
+      "@graphql-tools/url-loader",
+      "@graphql-tools/stitch"
+    ],
+    "out": [
+      "@graphql-tools/delegate",
+      "@graphql-tools/schema",
+      "@graphql-tools/utils",
+      "is-promise",
+      "tslib"
+    ]
+  },
+  "crypto-js": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": []
+  },
+  "pg-protocol": {
+    "in": [
+      "pg"
+    ],
+    "out": []
+  },
+  "pg-pool": {
+    "in": [
+      "pg"
+    ],
+    "out": []
+  },
+  "@sentry/hub": {
+    "in": [
+      "@sentry/core",
+      "@sentry/core"
+    ],
+    "out": [
+      "@sentry/types",
+      "@sentry/utils",
+      "tslib"
+    ]
+  },
+  "tslib": {
+    "in": [
+      "@sentry/utils",
+      "@graphql-tools/stitch",
+      "@sentry/utils",
+      "@graphql-tools/merge",
+      "@sentry/core",
+      "@graphql-tools/delegate",
+      "@graphql-tools/import",
+      "@graphql-tools/git-loader",
+      "@graphql-tools/merge"
+    ],
+    "out": []
+  },
+  "on-finished": {
+    "in": [
+      "express",
+      "finalhandler",
+      "send",
+      "send",
+      "express",
+      "body-parser",
+      "body-parser"
+    ],
+    "out": [
+      "ee-first"
+    ]
+  },
+  "cssstyle": {
+    "in": [
+      "jsdom"
+    ],
+    "out": [
+      "cssom"
+    ]
+  },
+  "cssom": {
+    "in": [
+      "cssstyle"
+    ],
+    "out": []
+  },
+  "@algolia/cache-browser-local-storage": {
+    "in": [
+      "algoliasearch"
+    ],
+    "out": [
+      "@algolia/cache-common"
+    ]
+  },
+  "passport-custom": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [
+      "passport-strategy"
+    ]
+  },
+  "viewport-mercator-project": {
+    "in": [
+      "react-map-gl"
+    ],
+    "out": [
+      "@math.gl/web-mercator"
+    ]
+  },
+  "retry-axios": {
+    "in": [
+      "@googlemaps/google-maps-services-js"
+    ],
+    "out": []
+  },
+  "@types/passport-google-oauth20": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [
+      "@types/express",
+      "@types/passport",
+      "@types/passport-oauth2"
+    ]
+  },
+  "superagent": {
+    "in": [
+      "akismet-api"
+    ],
+    "out": [
+      "component-emitter",
+      "cookiejar",
+      "debug",
+      "fast-safe-stringify",
+      "form-data",
+      "formidable",
+      "methods",
+      "mime",
+      "qs",
+      "readable-stream",
+      "semver"
+    ]
+  },
+  "cookie-signature": {
+    "in": [
+      "express",
+      "express"
+    ],
+    "out": []
+  },
+  "@types/express-session": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [
+      "@types/express"
+    ]
+  },
+  "@algolia/logger-common": {
+    "in": [
+      "algoliasearch"
+    ],
+    "out": []
+  },
+  "@types/mocha": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": []
+  },
+  "enzyme-adapter-utils": {
+    "in": [
+      "enzyme-adapter-react-16"
+    ],
+    "out": [
+      "function.prototype.name",
+      "object.assign",
+      "prop-types",
+      "semver"
+    ]
+  },
+  "@types/passport-facebook": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [
+      "@types/express",
+      "@types/passport"
+    ]
+  },
+  "@types/express-serve-static-core": {
+    "in": [
+      "apollo-server-express"
+    ],
+    "out": [
+      "@types/node",
+      "@types/qs",
+      "@types/range-parser"
+    ]
+  },
+  "@types/jsonwebtoken": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [
+      "@types/node"
+    ]
+  },
+  "linkify-it": {
+    "in": [
+      "markdown-it"
+    ],
+    "out": [
+      "uc.micro"
+    ]
+  },
+  "@types/react-router-dom": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [
+      "@types/history",
+      "@types/react",
+      "@types/react-router"
+    ]
+  },
+  "localforage": {
+    "in": [
+      "@sentry/integrations"
+    ],
+    "out": [
+      "lie"
+    ]
+  },
+  "url": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [
+      "querystring",
+      "punycode"
+    ]
+  },
+  "@types/react-map-gl": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [
+      "@types/geojson",
+      "@types/mapbox-gl",
+      "@types/react",
+      "@types/viewport-mercator-project"
+    ]
+  },
+  "react-intercom": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": []
+  },
+  "@f/animate": {
+    "in": [
+      "graphql-voyager"
+    ],
+    "out": [
+      "@f/elapsed-time",
+      "@f/raf",
+      "@f/tween"
+    ]
+  },
+  "bowser": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": []
+  },
+  "whatwg-url": {
+    "in": [
+      "jsdom",
+      "source-map",
+      "source-map"
+    ],
+    "out": [
+      "tr46",
+      "webidl-conversions"
+    ]
+  },
+  "@types/caseless": {
+    "in": [
+      "@types/request"
+    ],
+    "out": []
+  },
+  "function.prototype.name": {
+    "in": [
+      "enzyme-adapter-react-16"
+    ],
+    "out": [
+      "call-bind",
+      "define-properties",
+      "es-abstract",
+      "functions-have-names"
+    ]
+  },
+  "yargs": {
+    "in": [
+      "mathjax-node-page",
+      "relay-compiler"
+    ],
+    "out": [
+      "camelcase",
+      "cliui",
+      "decamelize",
+      "get-caller-file",
+      "os-locale",
+      "read-pkg-up",
+      "require-directory",
+      "require-main-filename",
+      "set-blocking",
+      "string-width",
+      "which-module",
+      "y18n",
+      "yargs-parser"
+    ]
+  },
+  "@types/moment": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [
+      "moment"
+    ],
+    "deprecated": true
+  },
+  "@types/react-copy-to-clipboard": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [
+      "@types/react"
+    ]
+  },
+  "@types/qs": {
+    "in": [
+      "@types/express-serve-static-core",
+      "@types/express-serve-static-core"
+    ],
+    "out": []
+  },
+  "clsx": {
+    "in": [
+      "@material-ui/lab"
+    ],
+    "out": []
+  },
+  "immutable": {
+    "in": [
+      "draft-convert",
+      "draft-js-prism"
+    ],
+    "out": []
+  },
+  "is-binary-path": {
+    "in": [
+      "chokidar"
+    ],
+    "out": [
+      "binary-extensions"
+    ]
+  },
+  "array-flatten": {
+    "in": [
+      "express",
+      "router",
+      "express"
+    ],
+    "out": []
+  },
+  "on-headers": {
+    "in": [
+      "compression"
+    ],
+    "out": []
+  },
+  "merge-descriptors": {
+    "in": [
+      "express",
+      "express"
+    ],
+    "out": []
+  },
+  "is-glob": {
+    "in": [
+      "chokidar",
+      "@graphql-tools/load"
+    ],
+    "out": [
+      "is-extglob"
+    ]
+  },
+  "@graphql-tools/delegate": {
+    "in": [
+      "graphql-tools"
+    ],
+    "out": [
+      "@graphql-tools/batch-execute",
+      "@graphql-tools/schema",
+      "@graphql-tools/utils",
+      "dataloader",
+      "tslib",
+      "value-or-promise"
+    ]
+  },
+  "compressible": {
+    "in": [
+      "compression"
+    ],
+    "out": [
+      "mime-db"
+    ]
+  },
+  "readdirp": {
+    "in": [
+      "chokidar"
+    ],
+    "out": [
+      "picomatch"
+    ]
+  },
+  "encodeurl": {
+    "in": [
+      "express",
+      "finalhandler",
+      "express"
+    ],
+    "out": []
+  },
+  "html-encoding-sniffer": {
+    "in": [
+      "jsdom"
+    ],
+    "out": [
+      "whatwg-encoding"
+    ]
+  },
+  "mjolnir.js": {
+    "in": [
+      "react-map-gl"
+    ],
+    "out": [
+      "@babel/runtime",
+      "hammerjs"
+    ]
+  },
+  "parseurl": {
+    "in": [
+      "apollo-server-express"
+    ],
+    "out": []
+  },
+  "anymatch": {
+    "in": [
+      "chokidar"
+    ],
+    "out": [
+      "normalize-path",
+      "picomatch"
+    ]
+  },
+  "argparse": {
+    "in": [
+      "markdown-it"
+    ],
+    "out": []
+  },
+  "tough-cookie": {
+    "in": [
+      "jsdom"
+    ],
+    "out": [
+      "psl",
+      "punycode",
+      "universalify"
+    ]
+  },
+  "vary": {
+    "in": [
+      "compression",
+      "cors",
+      "express"
+    ],
+    "out": []
+  },
+  "accepts": {
+    "in": [
+      "apollo-server-express"
+    ],
+    "out": [
+      "mime-types",
+      "negotiator"
+    ]
+  },
+  "finalhandler": {
+    "in": [
+      "express",
+      "express"
+    ],
+    "out": [
+      "debug",
+      "encodeurl",
+      "escape-html",
+      "on-finished",
+      "parseurl",
+      "statuses",
+      "unpipe"
+    ]
+  },
+  "depd": {
+    "in": [
+      "agentkeepalive",
+      "http-errors",
+      "body-parser"
+    ],
+    "out": []
+  },
+  "safe-buffer": {
+    "in": [
+      "express",
+      "string_decoder",
+      "content-disposition",
+      "jws",
+      "jwa",
+      "express",
+      "sha.js",
+      "sha.js",
+      "ecdsa-sig-formatter"
+    ],
+    "out": []
+  },
+  "hoist-non-react-statics": {
+    "in": [
+      "theming",
+      "react-redux",
+      "react-css-themr",
+      "@types/react-redux",
+      "@types/hoist-non-react-statics"
+    ],
+    "out": [
+      "react-is"
+    ]
+  },
+  "@types/speakingurl": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": []
+  },
+  "querystring": {
+    "in": [
+      "url"
+    ],
+    "out": [],
+    "deprecated": true
+  },
+  "axios": {
+    "in": [
+      "@googlemaps/google-maps-services-js"
+    ],
+    "out": [
+      "follow-redirects"
+    ],
+    "deprecated": true
+  },
+  "punycode": {
+    "in": [
+      "tough-cookie",
+      "tr46"
+    ],
+    "out": []
+  },
+  "parse-srcset": {
+    "in": [
+      "sanitize-html"
+    ],
+    "out": []
+  },
+  "intercom-client": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [
+      "bluebird",
+      "htmlencode",
+      "request",
+      "sinon"
+    ]
+  },
+  "is-promise": {
+    "in": [
+      "@graphql-tools/wrap",
+      "@graphql-tools/links",
+      "@graphql-tools/url-loader"
+    ],
+    "out": []
+  },
+  "@types/geojson": {
+    "in": [
+      "react-map-gl",
+      "@types/mapbox-gl"
+    ],
+    "out": []
+  },
+  "@types/viewport-mercator-project": {
+    "in": [
+      "@types/react-map-gl"
+    ],
+    "out": [
+      "gl-matrix"
+    ]
+  },
+  "@types/passport-github2": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [
+      "@types/express",
+      "@types/passport",
+      "@types/passport-oauth2"
+    ]
+  },
+  "@types/mz": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [
+      "@types/bluebird",
+      "@types/node"
+    ]
+  },
+  "lru-cache": {
+    "in": [
+      "LessWrong",
+      "semver",
+      "semver",
+      "semver",
+      "apollo-server-core",
+      "apollo-server-core",
+      "apollo-server-caching",
+      "apollo-server-caching",
+      "apollo-server-caching",
+      "hosted-git-info"
+    ],
+    "out": [
+      "yallist"
+    ]
+  },
+  "kruptein": {
+    "in": [
+      "connect-mongo"
+    ],
+    "out": [
+      "asn1.js"
+    ]
+  },
+  "@sentry/minimal": {
+    "in": [
+      "@sentry/core",
+      "@sentry/core"
+    ],
+    "out": [
+      "@sentry/hub",
+      "@sentry/types",
+      "tslib"
+    ]
+  },
+  "intl": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": []
+  },
+  "message-box": {
+    "in": [
+      "simpl-schema"
+    ],
+    "out": [
+      "lodash.template"
+    ]
+  },
+  "klona": {
+    "in": [
+      "sanitize-html"
+    ],
+    "out": []
+  },
+  "@f/tween": {
+    "in": [
+      "@f/animate"
+    ],
+    "out": [
+      "@f/map-obj"
+    ]
+  },
+  "require-directory": {
+    "in": [
+      "yargs"
+    ],
+    "out": []
+  },
+  "which-module": {
+    "in": [
+      "yargs"
+    ],
+    "out": []
+  },
+  "y18n": {
+    "in": [
+      "yargs"
+    ],
+    "out": []
+  },
+  "postcss": {
+    "in": [
+      "sanitize-html"
+    ],
+    "out": [
+      "colorette",
+      "nanoid",
+      "source-map-js"
+    ]
+  },
+  "jsonwebtoken": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [
+      "jws",
+      "lodash.includes",
+      "lodash.isboolean",
+      "lodash.isinteger",
+      "lodash.isnumber",
+      "lodash.isplainobject",
+      "lodash.isstring",
+      "lodash.once",
+      "ms",
+      "semver"
+    ]
+  },
+  "is-plain-object": {
+    "in": [
+      "sanitize-html"
+    ],
+    "out": []
+  },
+  "utils-merge": {
+    "in": [
+      "express",
+      "router",
+      "passport-oauth2",
+      "serve-static",
+      "express"
+    ],
+    "out": []
+  },
+  "lolex": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [
+      "@sinonjs/commons"
+    ],
+    "deprecated": true
+  },
+  "estraverse": {
+    "in": [
+      "escodegen"
+    ],
+    "out": []
+  },
+  "@types/body-parser": {
+    "in": [
+      "apollo-server-express"
+    ],
+    "out": [
+      "@types/connect",
+      "@types/node"
+    ]
+  },
+  "@types/mapbox-gl": {
+    "in": [
+      "react-map-gl"
+    ],
+    "out": [
+      "@types/geojson"
+    ]
+  },
+  "moment": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": []
+  },
+  "passport-strategy": {
+    "in": [
+      "passport-custom",
+      "passport",
+      "passport-oauth2"
+    ],
+    "out": []
+  },
+  "svg-pan-zoom": {
+    "in": [
+      "graphql-voyager"
+    ],
+    "out": []
+  },
+  "is-extglob": {
+    "in": [
+      "is-glob"
+    ],
+    "out": []
+  },
+  "marked": {
+    "in": [
+      "graphql-voyager"
+    ],
+    "out": []
+  },
+  "hammerjs": {
+    "in": [
+      "mjolnir.js"
+    ],
+    "out": []
+  },
+  "query-string": {
+    "in": [
+      "@googlemaps/google-maps-services-js"
+    ],
+    "out": [
+      "decode-uri-component",
+      "filter-obj",
+      "split-on-first",
+      "strict-uri-encode"
+    ]
+  },
+  "component-emitter": {
+    "in": [
+      "superagent"
+    ],
+    "out": []
+  },
+  "classnames": {
+    "in": [
+      "@types/classnames",
+      "react-instantsearch-dom",
+      "react-toolbox"
+    ],
+    "out": []
+  },
+  "universalify": {
+    "in": [
+      "tough-cookie"
+    ],
+    "out": []
+  },
+  "escape-html": {
+    "in": [
+      "express",
+      "serve-static",
+      "send",
+      "send",
+      "express"
+    ],
+    "out": []
+  },
+  "unpipe": {
+    "in": [
+      "finalhandler",
+      "raw-body"
+    ],
+    "out": []
+  },
+  "negotiator": {
+    "in": [
+      "accepts",
+      "accepts"
+    ],
+    "out": []
+  },
+  "pgpass": {
+    "in": [
+      "pg"
+    ],
+    "out": [
+      "split2"
+    ]
+  },
+  "uc.micro": {
+    "in": [
+      "markdown-it",
+      "linkify-it"
+    ],
+    "out": []
+  },
+  "mime-types": {
+    "in": [
+      "form-data",
+      "accepts",
+      "type-is"
+    ],
+    "out": [
+      "mime-db"
+    ]
+  },
+  "object.values": {
+    "in": [
+      "enzyme-adapter-react-16"
+    ],
+    "out": [
+      "call-bind",
+      "define-properties",
+      "es-abstract"
+    ]
+  },
+  "mingo": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": []
+  },
+  "@algolia/requester-common": {
+    "in": [
+      "algoliasearch",
+      "@algolia/client-common"
+    ],
+    "out": []
+  },
+  "source-map-support": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [
+      "buffer-from",
+      "source-map"
+    ]
+  },
+  "object.assign": {
+    "in": [
+      "enzyme-adapter-utils",
+      "babel-plugin-dynamic-import-node"
+    ],
+    "out": [
+      "call-bind",
+      "define-properties",
+      "has-symbols",
+      "object-keys"
+    ]
+  },
+  "@math.gl/web-mercator": {
+    "in": [
+      "viewport-mercator-project"
+    ],
+    "out": [
+      "@babel/runtime",
+      "gl-matrix"
+    ]
+  },
+  "semver": {
+    "in": [
+      "jsonwebtoken",
+      "@babel/core",
+      "@mapbox/node-pre-gyp",
+      "normalize-package-data",
+      "make-dir"
+    ],
+    "out": [
+      "lru-cache"
+    ]
+  },
+  "yallist": {
+    "in": [
+      "lru-cache",
+      "tar",
+      "minizlib",
+      "minipass",
+      "minipass",
+      "minipass"
+    ],
+    "out": []
+  },
+  "@types/scheduler": {
+    "in": [
+      "@types/react"
+    ],
+    "out": []
+  },
+  "draft-js-inline-toolbar-plugin": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [
+      "draft-js-buttons"
+    ],
+    "deprecated": true
+  },
+  "@graphql-tools/batch-delegate": {
+    "in": [
+      "graphql-tools",
+      "@graphql-tools/stitch"
+    ],
+    "out": [
+      "@graphql-tools/delegate",
+      "dataloader",
+      "tslib"
+    ]
+  },
+  "@types/history": {
+    "in": [
+      "@types/react-router"
+    ],
+    "out": []
+  },
+  "path-is-absolute": {
+    "in": [
+      "express",
+      "express",
+      "glob",
+      "glob"
+    ],
+    "out": [],
+    "deprecated": true
+  },
+  "@graphql-tools/utils": {
+    "in": [
+      "graphql-tools",
+      "@graphql-tools/mock",
+      "apollo-server-core",
+      "@graphql-tools/batch-execute",
+      "@graphql-tools/github-loader",
+      "@graphql-tools/graphql-tag-pluck",
+      "@graphql-tools/resolvers-composition",
+      "@graphql-tools/graphql-tag-pluck",
+      "apollo-server-core",
+      "@graphql-tools/json-file-loader",
+      "@graphql-tools/graphql-tag-pluck",
+      "@graphql-tools/url-loader",
+      "@graphql-tools/stitch",
+      "@graphql-tools/merge",
+      "@graphql-tools/delegate",
+      "@graphql-tools/git-loader",
+      "@graphql-tools/merge"
+    ],
+    "out": [
+      "tslib"
+    ]
+  },
+  "htmlparser2": {
+    "in": [
+      "cheerio"
+    ],
+    "out": [
+      "domelementtype",
+      "domhandler",
+      "domutils",
+      "entities"
+    ]
+  },
+  "iconv-lite": {
+    "in": [
+      "jsdom",
+      "body-parser",
+      "raw-body",
+      "body-parser"
+    ],
+    "out": [
+      "safer-buffer"
+    ]
+  },
+  "formidable": {
+    "in": [
+      "superagent"
+    ],
+    "out": [
+      "dezalgo",
+      "once"
+    ]
+  },
+  "@types/connect": {
+    "in": [
+      "@types/body-parser",
+      "@types/body-parser"
+    ],
+    "out": [
+      "@types/node"
+    ]
+  },
+  "passport": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [
+      "passport-strategy",
+      "pause"
+    ]
+  },
+  "papaparse": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": []
+  },
+  "@graphql-tools/schema": {
+    "in": [
+      "graphql-tools",
+      "@graphql-tools/mock",
+      "apollo-server-core",
+      "apollo-server-core",
+      "@graphql-tools/stitch",
+      "@graphql-tools/merge",
+      "@graphql-tools/delegate",
+      "@graphql-tools/merge"
+    ],
+    "out": [
+      "@graphql-tools/merge",
+      "@graphql-tools/utils",
+      "tslib",
+      "value-or-promise"
+    ]
+  },
+  "@types/range-parser": {
+    "in": [
+      "@types/express-serve-static-core",
+      "@types/express-serve-static-core"
+    ],
+    "out": []
+  },
+  "@sinonjs/commons": {
+    "in": [
+      "lolex",
+      "sinon",
+      "nise",
+      "@sinonjs/samsam",
+      "@sinonjs/fake-timers",
+      "@sinonjs/fake-timers"
+    ],
+    "out": [
+      "type-detect"
+    ]
+  },
+  "split-on-first": {
+    "in": [
+      "query-string"
+    ],
+    "out": []
+  },
+  "strict-uri-encode": {
+    "in": [
+      "query-string"
+    ],
+    "out": []
+  },
+  "decode-uri-component": {
+    "in": [
+      "query-string"
+    ],
+    "out": []
+  },
+  "filter-obj": {
+    "in": [
+      "query-string"
+    ],
+    "out": []
+  },
+  "react-style-proptype": {
+    "in": [
+      "graphql-voyager",
+      "react-toolbox"
+    ],
+    "out": [
+      "prop-types"
+    ]
+  },
+  "mathjax-node": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [
+      "is-fullwidth-code-point",
+      "jsdom",
+      "mathjax"
+    ]
+  },
+  "call-bind": {
+    "in": [
+      "function.prototype.name",
+      "object.assign",
+      "util.promisify",
+      "object.getownpropertydescriptors"
+    ],
+    "out": [
+      "function-bind",
+      "get-intrinsic"
+    ]
+  },
+  "has-symbols": {
+    "in": [
+      "object.assign",
+      "get-intrinsic",
+      "is-regex",
+      "is-symbol",
+      "is-regex",
+      "object.assign",
+      "util.promisify"
+    ],
+    "out": []
+  },
+  "@graphql-tools/module-loader": {
+    "in": [
+      "graphql-tools"
+    ],
+    "out": [
+      "@graphql-tools/utils",
+      "tslib"
+    ]
+  },
+  "entities": {
+    "in": [
+      "markdown-it",
+      "htmlparser2"
+    ],
+    "out": []
+  },
+  "domutils": {
+    "in": [
+      "htmlparser2",
+      "cheerio-select",
+      "css-select",
+      "htmlparser2"
+    ],
+    "out": [
+      "dom-serializer",
+      "domelementtype",
+      "domhandler"
+    ]
+  },
+  "domelementtype": {
+    "in": [
+      "domutils",
+      "domhandler",
+      "dom-serializer",
+      "cheerio-select",
+      "htmlparser2"
+    ],
+    "out": []
+  },
+  "domhandler": {
+    "in": [
+      "cheerio",
+      "dom-serializer",
+      "cheerio-select",
+      "css-select",
+      "htmlparser2"
+    ],
+    "out": [
+      "domelementtype"
+    ]
+  },
+  "js-tokens": {
+    "in": [
+      "loose-envify",
+      "@babel/highlight",
+      "@babel/highlight"
+    ],
+    "out": []
+  },
+  "htmlencode": {
+    "in": [
+      "intercom-client"
+    ],
+    "out": []
+  },
+  "markdown-it-container": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": []
+  },
+  "cookie": {
+    "in": [
+      "cookie-parser",
+      "express"
+    ],
+    "out": []
+  },
+  "bson": {
+    "in": [
+      "mongodb"
+    ],
+    "out": [
+      "buffer"
+    ]
+  },
+  "@graphql-tools/optimize": {
+    "in": [
+      "graphql-tools"
+    ],
+    "out": [
+      "tslib"
+    ]
+  },
+  "psl": {
+    "in": [
+      "tough-cookie"
+    ],
+    "out": []
+  },
+  "readable-stream": {
+    "in": [
+      "superagent",
+      "split2",
+      "are-we-there-yet"
+    ],
+    "out": [
+      "inherits",
+      "string_decoder",
+      "util-deprecate"
+    ]
+  },
+  "uuid": {
+    "in": [
+      "@google/maps",
+      "apollo-server-core",
+      "apollo-server-core"
+    ],
+    "out": []
+  },
+  "router": {
+    "in": [
+      "express",
+      "express"
+    ],
+    "out": [
+      "array-flatten",
+      "methods",
+      "parseurl",
+      "path-to-regexp",
+      "setprototypeof",
+      "utils-merge"
+    ]
+  },
+  "picomatch": {
+    "in": [
+      "readdirp",
+      "micromatch"
+    ],
+    "out": []
+  },
+  "normalize-path": {
+    "in": [
+      "anymatch",
+      "unixify"
+    ],
+    "out": []
+  },
+  "is-fullwidth-code-point": {
+    "in": [
+      "mathjax-node",
+      "string-width",
+      "string-width"
+    ],
+    "out": []
+  },
+  "speakingurl": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": []
+  },
+  "mime-db": {
+    "in": [
+      "mime-types",
+      "mime-types",
+      "mime-types"
+    ],
+    "out": []
+  },
+  "lodash.isnumber": {
+    "in": [
+      "jsonwebtoken"
+    ],
+    "out": []
+  },
+  "lodash.isboolean": {
+    "in": [
+      "jsonwebtoken"
+    ],
+    "out": []
+  },
+  "lodash.includes": {
+    "in": [
+      "jsonwebtoken"
+    ],
+    "out": []
+  },
+  "lodash.isinteger": {
+    "in": [
+      "jsonwebtoken"
+    ],
+    "out": []
+  },
+  "pg-int8": {
+    "in": [
+      "pg-types"
+    ],
+    "out": []
+  },
+  "xml-name-validator": {
+    "in": [
+      "jsdom"
+    ],
+    "out": []
+  },
+  "@types/bluebird": {
+    "in": [
+      "@types/mz"
+    ],
+    "out": []
+  },
+  "@graphql-tools/batch-execute": {
+    "in": [
+      "graphql-tools",
+      "@graphql-tools/delegate"
+    ],
+    "out": [
+      "@graphql-tools/utils",
+      "dataloader",
+      "tslib",
+      "value-or-promise"
+    ]
+  },
+  "draft-js-checkable-list-item": {
+    "in": [
+      "draft-js-markdown-shortcuts-plugin"
+    ],
+    "out": [
+      "draft-js-modifiers",
+      "immutable"
+    ]
+  },
+  "get-intrinsic": {
+    "in": [
+      "call-bind",
+      "call-bind",
+      "call-bind"
+    ],
+    "out": [
+      "function-bind",
+      "has",
+      "has-symbols"
+    ]
+  },
+  "asn1.js": {
+    "in": [
+      "kruptein"
+    ],
+    "out": [
+      "bn.js",
+      "inherits",
+      "minimalistic-assert",
+      "safer-buffer"
+    ]
+  },
+  "raf": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [
+      "performance-now"
+    ]
+  },
+  "dataloader": {
+    "in": [
+      "@graphql-tools/batch-execute",
+      "@graphql-tools/batch-execute",
+      "@graphql-tools/delegate"
+    ],
+    "out": []
+  },
+  "function-bind": {
+    "in": [
+      "get-intrinsic",
+      "has",
+      "call-bind"
+    ],
+    "out": []
+  },
+  "define-properties": {
+    "in": [
+      "function.prototype.name",
+      "object.assign",
+      "util.promisify",
+      "object.getownpropertydescriptors"
+    ],
+    "out": [
+      "object-keys"
+    ]
+  },
+  "fsevents": {
+    "in": [
+      "chokidar"
+    ],
+    "out": []
+  },
+  "value-or-promise": {
+    "in": [
+      "@graphql-tools/schema",
+      "@graphql-tools/schema",
+      "@graphql-tools/batch-execute",
+      "@graphql-tools/delegate"
+    ],
+    "out": []
+  },
+  "path-to-regexp": {
+    "in": [
+      "router",
+      "nise"
+    ],
+    "out": []
+  },
+  "dom-serializer": {
+    "in": [
+      "cheerio"
+    ],
+    "out": [
+      "domelementtype",
+      "domhandler",
+      "entities"
+    ]
+  },
+  "object-keys": {
+    "in": [
+      "define-properties",
+      "define-properties",
+      "define-properties",
+      "object.assign"
+    ],
+    "out": []
+  },
+  "es-abstract": {
+    "in": [
+      "function.prototype.name",
+      "object.getownpropertydescriptors"
+    ],
+    "out": [
+      "es-to-primitive",
+      "function-bind",
+      "has",
+      "is-callable",
+      "is-regex"
+    ]
+  },
+  "@f/map-obj": {
+    "in": [
+      "@f/tween"
+    ],
+    "out": []
+  },
+  "@graphql-tools/links": {
+    "in": [
+      "graphql-tools"
+    ],
+    "out": [
+      "@graphql-tools/delegate",
+      "@graphql-tools/utils",
+      "apollo-upload-client",
+      "cross-fetch",
+      "form-data",
+      "is-promise",
+      "tslib"
+    ]
+  },
+  "@graphql-tools/relay-operation-optimizer": {
+    "in": [
+      "graphql-tools"
+    ],
+    "out": [
+      "@graphql-tools/utils",
+      "relay-compiler",
+      "tslib"
+    ]
+  },
+  "lodash.isstring": {
+    "in": [
+      "jsonwebtoken",
+      "subscriptions-transport-ws"
+    ],
+    "out": []
+  },
+  "etag": {
+    "in": [
+      "express",
+      "send",
+      "send",
+      "express"
+    ],
+    "out": []
+  },
+  "rss": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [
+      "mime-types",
+      "xml"
+    ]
+  },
+  "set-blocking": {
+    "in": [
+      "yargs",
+      "npmlog"
+    ],
+    "out": []
+  },
+  "qs": {
+    "in": [
+      "express",
+      "body-parser"
+    ],
+    "out": []
+  },
+  "clone": {
+    "in": [
+      "simpl-schema"
+    ],
+    "out": []
+  },
+  "denque": {
+    "in": [
+      "mongodb"
+    ],
+    "out": []
+  },
+  "source-map": {
+    "in": [
+      "escodegen"
+    ],
+    "out": [
+      "whatwg-url"
+    ]
+  },
+  "functions-have-names": {
+    "in": [
+      "function.prototype.name"
+    ],
+    "out": []
+  },
+  "inherits": {
+    "in": [
+      "asn1.js",
+      "sha.js",
+      "sha.js",
+      "glob",
+      "http-errors",
+      "glob"
+    ],
+    "out": []
+  },
+  "string_decoder": {
+    "in": [
+      "readable-stream"
+    ],
+    "out": [
+      "safe-buffer"
+    ]
+  },
+  "util-deprecate": {
+    "in": [
+      "readable-stream"
+    ],
+    "out": []
+  },
+  "setprototypeof": {
+    "in": [
+      "router",
+      "express",
+      "http-errors"
+    ],
+    "out": []
+  },
+  "draft-js-prism-plugin": {
+    "in": [
+      "draft-js-markdown-shortcuts-plugin"
+    ],
+    "out": [
+      "draft-js-prism",
+      "react"
+    ]
+  },
+  "methods": {
+    "in": [
+      "express"
+    ],
+    "out": []
+  },
+  "draft-js-buttons": {
+    "in": [
+      "draft-js-inline-toolbar-plugin"
+    ],
+    "out": [
+      "clsx"
+    ],
+    "deprecated": true
+  },
+  "draft-js-modifiers": {
+    "in": [
+      "draft-js-checkable-list-item"
+    ],
+    "out": [
+      "draft-js",
+      "immutable"
+    ]
+  },
+  "bn.js": {
+    "in": [
+      "asn1.js"
+    ],
+    "out": []
+  },
+  "safer-buffer": {
+    "in": [
+      "iconv-lite"
+    ],
+    "out": []
+  },
+  "minimalistic-assert": {
+    "in": [
+      "asn1.js"
+    ],
+    "out": []
+  },
+  "dezalgo": {
+    "in": [
+      "formidable"
+    ],
+    "out": [
+      "asap",
+      "wrappy"
+    ]
+  },
+  "postgres-interval": {
+    "in": [
+      "pg-types"
+    ],
+    "out": []
+  },
+  "pause": {
+    "in": [
+      "passport"
+    ],
+    "out": []
+  },
+  "binary-extensions": {
+    "in": [
+      "is-binary-path"
+    ],
+    "out": []
+  },
+  "tr46": {
+    "in": [
+      "whatwg-url"
+    ],
+    "out": [
+      "punycode"
+    ]
+  },
+  "split2": {
+    "in": [
+      "pgpass"
+    ],
+    "out": [
+      "readable-stream"
+    ]
+  },
+  "cross-fetch": {
+    "in": [
+      "@graphql-tools/links",
+      "fbjs",
+      "fbjs",
+      "fbjs",
+      "@graphql-tools/github-loader",
+      "@graphql-tools/url-loader"
+    ],
+    "out": [
+      "node-fetch"
+    ]
+  },
+  "is-callable": {
+    "in": [
+      "es-abstract",
+      "for-each",
+      "es-to-primitive"
+    ],
+    "out": []
+  },
+  "bytes": {
+    "in": [
+      "compression",
+      "body-parser",
+      "raw-body",
+      "body-parser"
+    ],
+    "out": []
+  },
+  "buffer-from": {
+    "in": [
+      "source-map-support"
+    ],
+    "out": []
+  },
+  "get-caller-file": {
+    "in": [
+      "yargs"
+    ],
+    "out": []
+  },
+  "jest-diff": {
+    "in": [
+      "@types/jest"
+    ],
+    "out": [
+      "chalk",
+      "diff-sequences",
+      "jest-get-type",
+      "pretty-format"
+    ]
+  },
+  "mime": {
+    "in": [
+      "superagent",
+      "send",
+      "send"
+    ],
+    "out": []
+  },
+  "packet-reader": {
+    "in": [
+      "pg"
+    ],
+    "out": []
+  },
+  "@graphql-tools/merge": {
+    "in": [
+      "graphql-tools"
+    ],
+    "out": [
+      "@graphql-tools/schema",
+      "@graphql-tools/utils",
+      "tslib"
+    ]
+  },
+  "lie": {
+    "in": [
+      "localforage"
+    ],
+    "out": [
+      "immediate"
+    ]
+  },
+  "@types/passport-oauth2": {
+    "in": [
+      "@types/passport-google-oauth20"
+    ],
+    "out": [
+      "@types/express",
+      "@types/oauth",
+      "@types/passport"
+    ]
+  },
+  "parse5": {
+    "in": [
+      "cheerio",
+      "parse5-htmlparser2-tree-adapter"
+    ],
+    "out": []
+  },
+  "wrappy": {
+    "in": [
+      "dezalgo",
+      "inflight",
+      "once",
+      "once",
+      "once"
+    ],
+    "out": []
+  },
+  "asap": {
+    "in": [
+      "dezalgo",
+      "promise",
+      "promise",
+      "promise"
+    ],
+    "out": []
+  },
+  "lodash.once": {
+    "in": [
+      "jsonwebtoken"
+    ],
+    "out": []
+  },
+  "buffer": {
+    "in": [
+      "bson",
+      "sync-fetch"
+    ],
+    "out": [
+      "base64-js",
+      "ieee754"
+    ]
+  },
+  "react": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [
+      "loose-envify",
+      "object-assign"
+    ]
+  },
+  "content-disposition": {
+    "in": [
+      "express",
+      "express"
+    ],
+    "out": [
+      "safe-buffer"
+    ]
+  },
+  "chalk": {
+    "in": [
+      "jest-diff",
+      "relay-compiler",
+      "@babel/highlight",
+      "@babel/highlight"
+    ],
+    "out": [
+      "ansi-styles",
+      "supports-color"
+    ]
+  },
+  "jest-get-type": {
+    "in": [
+      "jest-diff"
+    ],
+    "out": []
+  },
+  "passport-facebook": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [
+      "passport-oauth2"
+    ]
+  },
+  "immediate": {
+    "in": [
+      "lie"
+    ],
+    "out": []
+  },
+  "diff-sequences": {
+    "in": [
+      "jest-diff"
+    ],
+    "out": []
+  },
+  "has": {
+    "in": [
+      "get-intrinsic",
+      "is-core-module"
+    ],
+    "out": [
+      "function-bind"
+    ]
+  },
+  "es-to-primitive": {
+    "in": [
+      "es-abstract"
+    ],
+    "out": [
+      "is-callable",
+      "is-date-object",
+      "is-symbol"
+    ]
+  },
+  "pretty-format": {
+    "in": [
+      "jest-diff"
+    ],
+    "out": []
+  },
+  "is-regex": {
+    "in": [
+      "es-abstract"
+    ],
+    "out": [
+      "call-bind",
+      "has-symbols"
+    ]
+  },
+  "@types/oauth": {
+    "in": [
+      "@types/passport-oauth2",
+      "@types/passport-oauth2"
+    ],
+    "out": [
+      "@types/node"
+    ]
+  },
+  "node-fetch": {
+    "in": [
+      "cross-fetch",
+      "@mapbox/node-pre-gyp",
+      "apollo-server-env",
+      "sync-fetch",
+      "apollo-server-env",
+      "apollo-server-env"
+    ],
+    "out": [
+      "data-uri-to-buffer",
+      "fetch-blob"
+    ]
+  },
+  "ieee754": {
+    "in": [
+      "buffer"
+    ],
+    "out": []
+  },
+  "base64-js": {
+    "in": [
+      "buffer"
+    ],
+    "out": []
+  },
+  "type-detect": {
+    "in": [
+      "@sinonjs/commons",
+      "@sinonjs/samsam"
+    ],
+    "out": []
+  },
+  "passport-oauth2": {
+    "in": [
+      "passport-facebook"
+    ],
+    "out": [
+      "base64url",
+      "oauth",
+      "passport-strategy",
+      "uid2",
+      "utils-merge"
+    ]
+  },
+  "supports-color": {
+    "in": [
+      "chalk",
+      "sinon"
+    ],
+    "out": [
+      "has-flag"
+    ]
+  },
+  "is-symbol": {
+    "in": [
+      "es-to-primitive",
+      "es-to-primitive",
+      "es-to-primitive"
+    ],
+    "out": [
+      "has-symbols"
+    ]
+  },
+  "is-date-object": {
+    "in": [
+      "es-to-primitive",
+      "es-to-primitive",
+      "es-to-primitive"
+    ],
+    "out": []
+  },
+  "ansi-styles": {
+    "in": [
+      "chalk",
+      "wrap-ansi"
+    ],
+    "out": []
+  },
+  "data-uri-to-buffer": {
+    "in": [
+      "node-fetch"
+    ],
+    "out": []
+  },
+  "follow-redirects": {
+    "in": [
+      "axios"
+    ],
+    "out": [
+      "debug"
+    ]
+  },
+  "fetch-blob": {
+    "in": [
+      "node-fetch"
+    ],
+    "out": []
+  },
+  "cliui": {
+    "in": [
+      "yargs"
+    ],
+    "out": [
+      "string-width",
+      "strip-ansi",
+      "wrap-ansi"
+    ]
+  },
+  "performance-now": {
+    "in": [
+      "raf"
+    ],
+    "out": []
+  },
+  "@f/elapsed-time": {
+    "in": [
+      "@f/animate"
+    ],
+    "out": [
+      "@f/timestamp"
+    ]
+  },
+  "@f/raf": {
+    "in": [
+      "@f/animate"
+    ],
+    "out": []
+  },
+  "oauth": {
+    "in": [
+      "passport-oauth2"
+    ],
+    "out": []
+  },
+  "base64url": {
+    "in": [
+      "passport-oauth2",
+      "ecdsa-sig-formatter"
+    ],
+    "out": []
+  },
+  "uid2": {
+    "in": [
+      "passport-oauth2"
+    ],
+    "out": []
+  },
+  "lodash.isplainobject": {
+    "in": [
+      "jsonwebtoken"
+    ],
+    "out": []
+  },
+  "serve-static": {
+    "in": [
+      "express",
+      "express"
+    ],
+    "out": [
+      "escape-html",
+      "parseurl",
+      "send",
+      "utils-merge"
+    ]
+  },
+  "has-flag": {
+    "in": [
+      "supports-color"
+    ],
+    "out": []
+  },
+  "apollo-upload-client": {
+    "in": [
+      "@graphql-tools/links"
+    ],
+    "out": [
+      "apollo-link",
+      "apollo-link-http-common",
+      "extract-files"
+    ]
+  },
+  "xml": {
+    "in": [
+      "rss"
+    ],
+    "out": []
+  },
+  "wrap-ansi": {
+    "in": [
+      "cliui"
+    ],
+    "out": [
+      "ansi-styles",
+      "string-width",
+      "strip-ansi"
+    ]
+  },
+  "string-width": {
+    "in": [
+      "wrap-ansi",
+      "gauge",
+      "wide-align"
+    ],
+    "out": [
+      "emoji-regex",
+      "is-fullwidth-code-point",
+      "strip-ansi"
+    ]
+  },
+  "relay-compiler": {
+    "in": [
+      "@graphql-tools/relay-operation-optimizer"
+    ],
+    "out": [
+      "@babel/core",
+      "@babel/generator",
+      "@babel/parser",
+      "@babel/runtime",
+      "@babel/traverse",
+      "@babel/types",
+      "babel-preset-fbjs",
+      "chalk",
+      "fast-glob",
+      "fb-watchman",
+      "fbjs",
+      "immutable",
+      "nullthrows",
+      "relay-runtime",
+      "signedsource",
+      "yargs"
+    ]
+  },
+  "strip-ansi": {
+    "in": [
+      "wrap-ansi",
+      "gauge"
+    ],
+    "out": [
+      "ansi-regex"
+    ]
+  },
+  "lodash.template": {
+    "in": [
+      "message-box"
+    ],
+    "out": [
+      "lodash._reinterpolate",
+      "lodash.templatesettings"
+    ]
+  },
+  "send": {
+    "in": [
+      "express",
+      "express"
+    ],
+    "out": [
+      "debug",
+      "depd",
+      "destroy",
+      "escape-html",
+      "etag",
+      "fresh",
+      "mime",
+      "ms",
+      "on-finished",
+      "range-parser"
+    ]
+  },
+  "@f/timestamp": {
+    "in": [
+      "@f/elapsed-time"
+    ],
+    "out": []
+  },
+  "react-instantsearch-dom": {
+    "in": [
+      "react-instantsearch"
+    ],
+    "out": [
+      "@babel/runtime",
+      "algoliasearch-helper",
+      "classnames",
+      "prop-types",
+      "react-fast-compare",
+      "react-instantsearch-core"
+    ]
+  },
+  "apollo-link": {
+    "in": [
+      "apollo-upload-client",
+      "apollo-link-http-common"
+    ],
+    "out": [
+      "zen-observable-ts"
+    ]
+  },
+  "apollo-link-http-common": {
+    "in": [
+      "apollo-upload-client"
+    ],
+    "out": [
+      "apollo-link"
+    ]
+  },
+  "extract-files": {
+    "in": [
+      "apollo-upload-client",
+      "@graphql-tools/url-loader"
+    ],
+    "out": []
+  },
+  "emoji-regex": {
+    "in": [
+      "string-width"
+    ],
+    "out": []
+  },
+  "@types/mdurl": {
+    "in": [
+      "@types/markdown-it",
+      "@types/markdown-it"
+    ],
+    "out": []
+  },
+  "lodash._reinterpolate": {
+    "in": [
+      "lodash.template",
+      "lodash.templatesettings"
+    ],
+    "out": []
+  },
+  "lodash.templatesettings": {
+    "in": [
+      "lodash.template"
+    ],
+    "out": [
+      "lodash._reinterpolate"
+    ]
+  },
+  "fresh": {
+    "in": [
+      "send",
+      "express"
+    ],
+    "out": []
+  },
+  "range-parser": {
+    "in": [
+      "express"
+    ],
+    "out": []
+  },
+  "@babel/traverse": {
+    "in": [
+      "relay-compiler",
+      "@babel/core",
+      "@babel/helpers",
+      "@graphql-tools/graphql-tag-pluck",
+      "@graphql-tools/graphql-tag-pluck",
+      "@graphql-tools/graphql-tag-pluck",
+      "@babel/helper-replace-supers"
+    ],
+    "out": [
+      "@babel/code-frame",
+      "@babel/generator",
+      "@babel/helper-function-name",
+      "@babel/helper-split-export-declaration",
+      "@babel/parser",
+      "@babel/types",
+      "debug",
+      "globals",
+      "lodash"
+    ]
+  },
+  "ms": {
+    "in": [
+      "debug",
+      "debug",
+      "debug"
+    ],
+    "out": []
+  },
+  "@babel/generator": {
+    "in": [
+      "relay-compiler",
+      "@babel/core"
+    ],
+    "out": [
+      "@babel/types",
+      "jsesc",
+      "lodash",
+      "source-map"
+    ]
+  },
+  "@babel/parser": {
+    "in": [
+      "@babel/traverse",
+      "@babel/template",
+      "@graphql-tools/graphql-tag-pluck",
+      "@graphql-tools/graphql-tag-pluck",
+      "@graphql-tools/graphql-tag-pluck"
+    ],
+    "out": []
+  },
+  "relay-runtime": {
+    "in": [
+      "relay-compiler"
+    ],
+    "out": [
+      "@babel/runtime",
+      "fbjs"
+    ]
+  },
+  "jws": {
+    "in": [
+      "jsonwebtoken"
+    ],
+    "out": [
+      "jwa",
+      "safe-buffer"
+    ]
+  },
+  "@babel/types": {
+    "in": [
+      "@babel/generator",
+      "@babel/helper-get-function-arity",
+      "@babel/template",
+      "@babel/helpers",
+      "@babel/helper-module-transforms",
+      "@graphql-tools/graphql-tag-pluck",
+      "@graphql-tools/graphql-tag-pluck",
+      "@babel/helper-simple-access",
+      "@graphql-tools/graphql-tag-pluck",
+      "@babel/helper-simple-access",
+      "@babel/helper-replace-supers",
+      "@babel/helper-optimise-call-expression",
+      "@babel/helper-member-expression-to-functions",
+      "@babel/helper-module-imports",
+      "@babel/helper-builder-react-jsx",
+      "@babel/helper-builder-react-jsx-experimental",
+      "@babel/helper-annotate-as-pure",
+      "@babel/helper-annotate-as-pure",
+      "@babel/helper-annotate-as-pure",
+      "@babel/helper-define-map"
+    ],
+    "out": [
+      "@babel/helper-validator-identifier",
+      "lodash",
+      "to-fast-properties"
+    ]
+  },
+  "ansi-regex": {
+    "in": [
+      "strip-ansi"
+    ],
+    "out": []
+  },
+  "zen-observable-ts": {
+    "in": [
+      "apollo-link"
+    ],
+    "out": [
+      "@types/zen-observable",
+      "zen-observable"
+    ]
+  },
+  "@babel/core": {
+    "in": [
+      "relay-compiler"
+    ],
+    "out": [
+      "@babel/code-frame",
+      "@babel/generator",
+      "@babel/helper-module-transforms",
+      "@babel/helpers",
+      "@babel/parser",
+      "@babel/template",
+      "@babel/traverse",
+      "@babel/types",
+      "convert-source-map",
+      "debug",
+      "gensync",
+      "json5",
+      "lodash",
+      "resolve",
+      "semver",
+      "source-map"
+    ]
+  },
+  "algoliasearch-helper": {
+    "in": [
+      "react-instantsearch-dom",
+      "react-instantsearch-core",
+      "react-instantsearch-core"
+    ],
+    "out": [
+      "events"
+    ]
+  },
+  "fbjs": {
+    "in": [
+      "draft-js"
+    ],
+    "out": [
+      "cross-fetch",
+      "fbjs-css-vars",
+      "loose-envify",
+      "object-assign",
+      "promise",
+      "setimmediate",
+      "ua-parser-js"
+    ]
+  },
+  "fast-glob": {
+    "in": [
+      "relay-compiler",
+      "globby"
+    ],
+    "out": [
+      "@nodelib/fs.stat",
+      "@nodelib/fs.walk",
+      "glob-parent",
+      "merge2",
+      "micromatch"
+    ]
+  },
+  "signedsource": {
+    "in": [
+      "relay-compiler"
+    ],
+    "out": []
+  },
+  "@babel/helper-split-export-declaration": {
+    "in": [
+      "@babel/traverse",
+      "@babel/helper-module-transforms",
+      "@babel/helper-create-class-features-plugin",
+      "@babel/plugin-transform-classes"
+    ],
+    "out": [
+      "@babel/types"
+    ]
+  },
+  "stoppable": {
+    "in": [
+      "apollo-server"
+    ],
+    "out": []
+  },
+  "@babel/helper-function-name": {
+    "in": [
+      "@babel/traverse",
+      "@babel/helper-create-class-features-plugin",
+      "@babel/plugin-transform-function-name",
+      "@babel/plugin-transform-classes",
+      "@babel/helper-define-map"
+    ],
+    "out": [
+      "@babel/helper-get-function-arity",
+      "@babel/template",
+      "@babel/types"
+    ]
+  },
+  "destroy": {
+    "in": [
+      "send"
+    ],
+    "out": []
+  },
+  "@types/zen-observable": {
+    "in": [
+      "zen-observable-ts"
+    ],
+    "out": []
+  },
+  "react-instantsearch-core": {
+    "in": [
+      "react-instantsearch-dom"
+    ],
+    "out": [
+      "@babel/runtime",
+      "algoliasearch-helper",
+      "prop-types",
+      "react-fast-compare"
+    ]
+  },
+  "bcrypt": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": [
+      "@mapbox/node-pre-gyp",
+      "node-addon-api"
+    ]
+  },
+  "lodash": {
+    "in": [
+      "graphql-voyager",
+      "@graphql-tools/resolvers-composition",
+      "@graphql-tools/url-loader",
+      "@babel/helper-define-map"
+    ],
+    "out": []
+  },
+  "source-map-js": {
+    "in": [
+      "postcss"
+    ],
+    "out": []
+  },
+  "react-instantsearch-native": {
+    "in": [
+      "react-instantsearch"
+    ],
+    "out": [
+      "@babel/runtime",
+      "algoliasearch",
+      "react-instantsearch-core"
+    ]
+  },
+  "babel-preset-fbjs": {
+    "in": [
+      "relay-compiler"
+    ],
+    "out": [
+      "@babel/plugin-proposal-class-properties",
+      "@babel/plugin-proposal-object-rest-spread",
+      "@babel/plugin-syntax-class-properties",
+      "@babel/plugin-syntax-flow",
+      "@babel/plugin-syntax-jsx",
+      "@babel/plugin-syntax-object-rest-spread",
+      "@babel/plugin-transform-arrow-functions",
+      "@babel/plugin-transform-block-scoped-functions",
+      "@babel/plugin-transform-block-scoping",
+      "@babel/plugin-transform-classes",
+      "@babel/plugin-transform-computed-properties",
+      "@babel/plugin-transform-destructuring",
+      "@babel/plugin-transform-flow-strip-types",
+      "@babel/plugin-transform-for-of",
+      "@babel/plugin-transform-function-name",
+      "@babel/plugin-transform-literals",
+      "@babel/plugin-transform-member-expression-literals",
+      "@babel/plugin-transform-modules-commonjs",
+      "@babel/plugin-transform-object-super",
+      "@babel/plugin-transform-parameters",
+      "@babel/plugin-transform-property-literals",
+      "@babel/plugin-transform-react-display-name",
+      "@babel/plugin-transform-react-jsx",
+      "@babel/plugin-transform-shorthand-properties",
+      "@babel/plugin-transform-spread",
+      "@babel/plugin-transform-template-literals",
+      "babel-plugin-syntax-trailing-function-commas"
+    ]
+  },
+  "events": {
+    "in": [
+      "algoliasearch-helper"
+    ],
+    "out": []
+  },
+  "fb-watchman": {
+    "in": [
+      "relay-compiler"
+    ],
+    "out": [
+      "bser"
+    ]
+  },
+  "agent-base": {
+    "in": [
+      "https-proxy-agent"
+    ],
+    "out": [
+      "debug"
+    ]
+  },
+  "react-redux": {
+    "in": [
+      "graphql-voyager"
+    ],
+    "out": [
+      "@babel/runtime",
+      "@types/react-redux",
+      "hoist-non-react-statics",
+      "loose-envify",
+      "prop-types",
+      "react-is"
+    ]
+  },
+  "@babel/helper-get-function-arity": {
+    "in": [
+      "@babel/helper-function-name",
+      "@babel/plugin-transform-parameters"
+    ],
+    "out": [
+      "@babel/types"
+    ]
+  },
+  "react-fast-compare": {
+    "in": [
+      "react-instantsearch-core"
+    ],
+    "out": []
+  },
+  "@babel/template": {
+    "in": [
+      "@babel/helper-function-name",
+      "@babel/helpers",
+      "@babel/helper-module-transforms",
+      "@babel/helper-simple-access",
+      "@babel/helper-simple-access"
+    ],
+    "out": [
+      "@babel/code-frame",
+      "@babel/parser",
+      "@babel/types"
+    ]
+  },
+  "@babel/helpers": {
+    "in": [
+      "@babel/core"
+    ],
+    "out": [
+      "@babel/template",
+      "@babel/traverse",
+      "@babel/types"
+    ]
+  },
+  "postgres-array": {
+    "in": [
+      "pg-types"
+    ],
+    "out": []
+  },
+  "redux-thunk": {
+    "in": [
+      "graphql-voyager"
+    ],
+    "out": []
+  },
+  "clipboard": {
+    "in": [
+      "graphql-voyager"
+    ],
+    "out": [
+      "good-listener",
+      "select",
+      "tiny-emitter"
+    ]
+  },
+  "react-toolbox": {
+    "in": [
+      "graphql-voyager"
+    ],
+    "out": [
+      "classnames",
+      "core-js",
+      "ramda",
+      "react-addons-css-transition-group",
+      "react-css-themr",
+      "react-style-proptype"
+    ]
+  },
+  "combined-stream": {
+    "in": [
+      "form-data"
+    ],
+    "out": [
+      "delayed-stream"
+    ]
+  },
+  "redux": {
+    "in": [
+      "graphql-voyager",
+      "@types/react-redux"
+    ],
+    "out": [
+      "@babel/runtime"
+    ]
+  },
+  "bluebird": {
+    "in": [
+      "intercom-client"
+    ],
+    "out": []
+  },
+  "nullthrows": {
+    "in": [
+      "relay-compiler"
+    ],
+    "out": []
+  },
+  "globals": {
+    "in": [
+      "@babel/traverse",
+      "@babel/plugin-transform-classes"
+    ],
+    "out": []
+  },
+  "@babel/code-frame": {
+    "in": [
+      "@babel/core",
+      "parse-json"
+    ],
+    "out": [
+      "@babel/highlight"
+    ]
+  },
+  "@babel/helper-module-transforms": {
+    "in": [
+      "@babel/core",
+      "@babel/plugin-transform-modules-commonjs"
+    ],
+    "out": [
+      "@babel/helper-module-imports",
+      "@babel/helper-replace-supers",
+      "@babel/helper-simple-access",
+      "@babel/helper-split-export-declaration",
+      "@babel/template",
+      "@babel/types",
+      "lodash"
+    ]
+  },
+  "resolve": {
+    "in": [
+      "@babel/core",
+      "normalize-package-data"
+    ],
+    "out": [
+      "is-core-module",
+      "path-parse"
+    ]
+  },
+  "@babel/helper-validator-identifier": {
+    "in": [
+      "@babel/types",
+      "@babel/highlight",
+      "@babel/highlight"
+    ],
+    "out": []
+  },
+  "to-fast-properties": {
+    "in": [
+      "@babel/types"
+    ],
+    "out": []
+  },
+  "ee-first": {
+    "in": [
+      "on-finished"
+    ],
+    "out": []
+  },
+  "nanoid": {
+    "in": [
+      "postcss"
+    ],
+    "out": []
+  },
+  "bser": {
+    "in": [
+      "fb-watchman"
+    ],
+    "out": [
+      "node-int64"
+    ]
+  },
+  "zen-observable": {
+    "in": [
+      "zen-observable-ts"
+    ],
+    "out": []
+  },
+  "react-addons-css-transition-group": {
+    "in": [
+      "react-toolbox"
+    ],
+    "out": [
+      "fbjs",
+      "object-assign"
+    ]
+  },
+  "@graphql-tools/load": {
+    "in": [
+      "graphql-tools"
+    ],
+    "out": [
+      "@graphql-tools/merge",
+      "@graphql-tools/utils",
+      "globby",
+      "import-from",
+      "is-glob",
+      "p-limit",
+      "tslib",
+      "unixify",
+      "valid-url"
+    ]
+  },
+  "@mapbox/node-pre-gyp": {
+    "in": [
+      "bcrypt"
+    ],
+    "out": [
+      "detect-libc",
+      "https-proxy-agent",
+      "make-dir",
+      "node-fetch",
+      "nopt",
+      "npmlog",
+      "rimraf",
+      "semver",
+      "tar"
+    ]
+  },
+  "@babel/plugin-syntax-jsx": {
+    "in": [
+      "babel-preset-fbjs",
+      "@babel/plugin-transform-react-jsx"
+    ],
+    "out": [
+      "@babel/helper-plugin-utils"
+    ]
+  },
+  "react-css-themr": {
+    "in": [
+      "react-toolbox"
+    ],
+    "out": [
+      "hoist-non-react-statics",
+      "invariant"
+    ]
+  },
+  "jsesc": {
+    "in": [
+      "@babel/generator"
+    ],
+    "out": []
+  },
+  "@babel/plugin-transform-block-scoping": {
+    "in": [
+      "babel-preset-fbjs"
+    ],
+    "out": [
+      "@babel/helper-plugin-utils",
+      "lodash"
+    ]
+  },
+  "@babel/plugin-transform-arrow-functions": {
+    "in": [
+      "babel-preset-fbjs"
+    ],
+    "out": [
+      "@babel/helper-plugin-utils"
+    ]
+  },
+  "@babel/plugin-syntax-flow": {
+    "in": [
+      "babel-preset-fbjs",
+      "@babel/plugin-transform-flow-strip-types"
+    ],
+    "out": [
+      "@babel/helper-plugin-utils"
+    ]
+  },
+  "@babel/plugin-transform-shorthand-properties": {
+    "in": [
+      "babel-preset-fbjs"
+    ],
+    "out": [
+      "@babel/helper-plugin-utils"
+    ]
+  },
+  "babel-plugin-syntax-trailing-function-commas": {
+    "in": [
+      "babel-preset-fbjs"
+    ],
+    "out": []
+  },
+  "@babel/plugin-transform-template-literals": {
+    "in": [
+      "babel-preset-fbjs"
+    ],
+    "out": [
+      "@babel/helper-annotate-as-pure",
+      "@babel/helper-plugin-utils"
+    ]
+  },
+  "@babel/plugin-transform-block-scoped-functions": {
+    "in": [
+      "babel-preset-fbjs"
+    ],
+    "out": [
+      "@babel/helper-plugin-utils"
+    ]
+  },
+  "jwa": {
+    "in": [
+      "jws"
+    ],
+    "out": [
+      "buffer-equal-constant-time",
+      "ecdsa-sig-formatter",
+      "safe-buffer"
+    ]
+  },
+  "@babel/plugin-syntax-class-properties": {
+    "in": [
+      "babel-preset-fbjs"
+    ],
+    "out": [
+      "@babel/helper-plugin-utils"
+    ]
+  },
+  "valid-url": {
+    "in": [
+      "@graphql-tools/load",
+      "@graphql-tools/url-loader"
+    ],
+    "out": []
+  },
+  "unixify": {
+    "in": [
+      "@graphql-tools/load",
+      "@graphql-tools/load-files",
+      "@graphql-tools/git-loader"
+    ],
+    "out": [
+      "normalize-path"
+    ]
+  },
+  "import-from": {
+    "in": [
+      "@graphql-tools/load"
+    ],
+    "out": []
+  },
+  "detect-libc": {
+    "in": [
+      "@mapbox/node-pre-gyp"
+    ],
+    "out": []
+  },
+  "@graphql-tools/graphql-file-loader": {
+    "in": [
+      "graphql-tools"
+    ],
+    "out": [
+      "@graphql-tools/import",
+      "@graphql-tools/utils",
+      "tslib"
+    ]
+  },
+  "globby": {
+    "in": [
+      "@graphql-tools/load",
+      "@graphql-tools/load-files"
+    ],
+    "out": [
+      "@types/glob",
+      "array-union",
+      "dir-glob",
+      "fast-glob",
+      "glob",
+      "ignore",
+      "pify",
+      "slash"
+    ]
+  },
+  "cors": {
+    "in": [
+      "apollo-server-express"
+    ],
+    "out": [
+      "object-assign",
+      "vary"
+    ]
+  },
+  "@graphql-tools/code-file-loader": {
+    "in": [
+      "graphql-tools"
+    ],
+    "out": [
+      "@graphql-tools/graphql-tag-pluck",
+      "@graphql-tools/utils",
+      "tslib"
+    ]
+  },
+  "@graphql-tools/mock": {
+    "in": [
+      "graphql-tools",
+      "apollo-server-core",
+      "apollo-server-core"
+    ],
+    "out": [
+      "@graphql-tools/schema",
+      "@graphql-tools/utils",
+      "fast-json-stable-stringify",
+      "ts-is-defined",
+      "tslib"
+    ]
+  },
+  "@babel/helper-plugin-utils": {
+    "in": [
+      "@babel/plugin-syntax-class-properties",
+      "@babel/plugin-transform-literals",
+      "@babel/plugin-transform-classes",
+      "@babel/plugin-transform-for-of",
+      "@babel/plugin-transform-object-super",
+      "@babel/plugin-transform-destructuring",
+      "@babel/plugin-transform-flow-strip-types"
+    ],
+    "out": []
+  },
+  "@types/react-redux": {
+    "in": [
+      "react-redux"
+    ],
+    "out": [
+      "@types/hoist-non-react-statics",
+      "@types/react",
+      "hoist-non-react-statics",
+      "redux"
+    ]
+  },
+  "@babel/plugin-proposal-class-properties": {
+    "in": [
+      "babel-preset-fbjs"
+    ],
+    "out": [
+      "@babel/helper-create-class-features-plugin",
+      "@babel/helper-plugin-utils"
+    ]
+  },
+  "apollo-server-core": {
+    "in": [
+      "apollo-server-express"
+    ],
+    "out": [
+      "@apollographql/apollo-tools",
+      "@apollographql/graphql-playground-html",
+      "@graphql-tools/mock",
+      "@graphql-tools/schema",
+      "@graphql-tools/utils",
+      "@josephg/resolvable",
+      "apollo-datasource",
+      "apollo-graphql",
+      "apollo-reporting-protobuf",
+      "apollo-server-caching",
+      "apollo-server-env",
+      "apollo-server-errors",
+      "apollo-server-plugin-base",
+      "apollo-server-types",
+      "async-retry",
+      "fast-json-stable-stringify",
+      "graphql-tag",
+      "loglevel",
+      "lru-cache",
+      "sha.js",
+      "uuid"
+    ]
+  },
+  "@babel/plugin-transform-modules-commonjs": {
+    "in": [
+      "babel-preset-fbjs"
+    ],
+    "out": [
+      "@babel/helper-module-transforms",
+      "@babel/helper-plugin-utils",
+      "@babel/helper-simple-access",
+      "babel-plugin-dynamic-import-node"
+    ]
+  },
+  "@babel/plugin-transform-react-display-name": {
+    "in": [
+      "babel-preset-fbjs"
+    ],
+    "out": [
+      "@babel/helper-plugin-utils"
+    ]
+  },
+  "@babel/plugin-transform-parameters": {
+    "in": [
+      "babel-preset-fbjs"
+    ],
+    "out": [
+      "@babel/helper-get-function-arity",
+      "@babel/helper-plugin-utils"
+    ]
+  },
+  "node-addon-api": {
+    "in": [
+      "bcrypt"
+    ],
+    "out": []
+  },
+  "@babel/plugin-transform-property-literals": {
+    "in": [
+      "babel-preset-fbjs"
+    ],
+    "out": [
+      "@babel/helper-plugin-utils"
+    ]
+  },
+  "@graphql-tools/load-files": {
+    "in": [
+      "graphql-tools"
+    ],
+    "out": [
+      "globby",
+      "tslib",
+      "unixify"
+    ]
+  },
+  "ts-is-defined": {
+    "in": [
+      "@graphql-tools/mock"
+    ],
+    "out": [
+      "ts-tiny-invariant"
+    ]
+  },
+  "fbjs-css-vars": {
+    "in": [
+      "fbjs"
+    ],
+    "out": []
+  },
+  "promise": {
+    "in": [
+      "fbjs"
+    ],
+    "out": [
+      "asap"
+    ]
+  },
+  "select": {
+    "in": [
+      "clipboard"
+    ],
+    "out": []
+  },
+  "reselect": {
+    "in": [
+      "graphql-voyager"
+    ],
+    "out": []
+  },
+  "@graphql-tools/github-loader": {
+    "in": [
+      "graphql-tools"
+    ],
+    "out": [
+      "@graphql-tools/graphql-tag-pluck",
+      "@graphql-tools/utils",
+      "cross-fetch",
+      "tslib"
+    ]
+  },
+  "@graphql-tools/graphql-tag-pluck": {
+    "in": [
+      "@graphql-tools/github-loader",
+      "@graphql-tools/git-loader"
+    ],
+    "out": [
+      "@babel/parser",
+      "@babel/traverse",
+      "@babel/types",
+      "@graphql-tools/utils",
+      "tslib"
+    ]
+  },
+  "@graphql-tools/resolvers-composition": {
+    "in": [
+      "graphql-tools"
+    ],
+    "out": [
+      "@graphql-tools/utils",
+      "lodash",
+      "tslib"
+    ]
+  },
+  "delayed-stream": {
+    "in": [
+      "combined-stream"
+    ],
+    "out": []
+  },
+  "@types/hoist-non-react-statics": {
+    "in": [
+      "@types/react-redux"
+    ],
+    "out": [
+      "@types/react",
+      "hoist-non-react-statics"
+    ]
+  },
+  "@types/bson": {
+    "in": [
+      "@types/mongodb"
+    ],
+    "out": [
+      "@types/node"
+    ]
+  },
+  "good-listener": {
+    "in": [
+      "clipboard"
+    ],
+    "out": [
+      "delegate"
+    ]
+  },
+  "@josephg/resolvable": {
+    "in": [
+      "apollo-server-core",
+      "apollo-server-core"
+    ],
+    "out": []
+  },
+  "@nodelib/fs.walk": {
+    "in": [
+      "fast-glob"
+    ],
+    "out": [
+      "@nodelib/fs.scandir",
+      "fastq"
+    ]
+  },
+  "pg-numeric": {
+    "in": [
+      "pg-types"
+    ],
+    "out": []
+  },
+  "content-type": {
+    "in": [
+      "express"
+    ],
+    "out": []
+  },
+  "proxy-addr": {
+    "in": [
+      "express"
+    ],
+    "out": [
+      "forwarded",
+      "ipaddr.js"
+    ]
+  },
+  "statuses": {
+    "in": [
+      "express",
+      "http-errors"
+    ],
+    "out": []
+  },
+  "type-is": {
+    "in": [
+      "express",
+      "body-parser",
+      "body-parser"
+    ],
+    "out": [
+      "media-typer",
+      "mime-types"
+    ]
+  },
+  "body-parser": {
+    "in": [
+      "apollo-server-express"
+    ],
+    "out": [
+      "bytes",
+      "depd",
+      "iconv-lite",
+      "media-typer",
+      "on-finished",
+      "qs",
+      "raw-body",
+      "type-is"
+    ]
+  },
+  "optionator": {
+    "in": [
+      "escodegen"
+    ],
+    "out": [
+      "prelude-ls",
+      "deep-is",
+      "word-wrap",
+      "type-check",
+      "levn",
+      "fast-levenshtein"
+    ]
+  },
+  "slash": {
+    "in": [
+      "globby"
+    ],
+    "out": []
+  },
+  "@graphql-tools/json-file-loader": {
+    "in": [
+      "graphql-tools"
+    ],
+    "out": [
+      "@graphql-tools/utils",
+      "tslib"
+    ]
+  },
+  "apollo-server-plugin-base": {
+    "in": [
+      "apollo-server-core"
+    ],
+    "out": [
+      "apollo-server-types"
+    ]
+  },
+  "ignore": {
+    "in": [
+      "globby"
+    ],
+    "out": []
+  },
+  "ts-tiny-invariant": {
+    "in": [
+      "ts-is-defined"
+    ],
+    "out": []
+  },
+  "nopt": {
+    "in": [
+      "@mapbox/node-pre-gyp"
+    ],
+    "out": [
+      "abbrev"
+    ]
+  },
+  "p-limit": {
+    "in": [
+      "@graphql-tools/load",
+      "p-locate"
+    ],
+    "out": [
+      "yocto-queue"
+    ]
+  },
+  "@babel/highlight": {
+    "in": [
+      "@babel/code-frame"
+    ],
+    "out": [
+      "@babel/helper-validator-identifier",
+      "chalk",
+      "js-tokens"
+    ]
+  },
+  "esprima": {
+    "in": [
+      "escodegen"
+    ],
+    "out": []
+  },
+  "ramda": {
+    "in": [
+      "react-toolbox"
+    ],
+    "out": []
+  },
+  "@graphql-tools/import": {
+    "in": [
+      "graphql-tools"
+    ],
+    "out": [
+      "resolve-from",
+      "tslib"
+    ]
+  },
+  "rimraf": {
+    "in": [
+      "@mapbox/node-pre-gyp"
+    ],
+    "out": [
+      "glob"
+    ]
+  },
+  "ua-parser-js": {
+    "in": [
+      "fbjs"
+    ],
+    "out": []
+  },
+  "delegate": {
+    "in": [
+      "good-listener"
+    ],
+    "out": []
+  },
+  "@babel/plugin-transform-member-expression-literals": {
+    "in": [
+      "babel-preset-fbjs"
+    ],
+    "out": [
+      "@babel/helper-plugin-utils"
+    ]
+  },
+  "@babel/plugin-transform-spread": {
+    "in": [
+      "babel-preset-fbjs"
+    ],
+    "out": [
+      "@babel/helper-plugin-utils"
+    ]
+  },
+  "@babel/helper-simple-access": {
+    "in": [
+      "@babel/plugin-transform-modules-commonjs"
+    ],
+    "out": [
+      "@babel/template",
+      "@babel/types"
+    ]
+  },
+  "apollo-server-types": {
+    "in": [
+      "apollo-server-express"
+    ],
+    "out": [
+      "apollo-reporting-protobuf",
+      "apollo-server-caching",
+      "apollo-server-env"
+    ]
+  },
+  "fastq": {
+    "in": [
+      "@nodelib/fs.walk"
+    ],
+    "out": [
+      "reusify"
+    ]
+  },
+  "ipaddr.js": {
+    "in": [
+      "proxy-addr"
+    ],
+    "out": []
+  },
+  "async-retry": {
+    "in": [
+      "apollo-server-core"
+    ],
+    "out": [
+      "retry"
+    ]
+  },
+  "apollo-reporting-protobuf": {
+    "in": [
+      "apollo-server-core",
+      "apollo-server-types",
+      "apollo-server-types"
+    ],
+    "out": [
+      "@apollo/protobufjs"
+    ]
+  },
+  "sha.js": {
+    "in": [
+      "apollo-server-core",
+      "apollo-graphql",
+      "apollo-graphql"
+    ],
+    "out": [
+      "inherits",
+      "safe-buffer"
+    ]
+  },
+  "tiny-emitter": {
+    "in": [
+      "clipboard"
+    ],
+    "out": []
+  },
+  "apollo-server-caching": {
+    "in": [
+      "apollo-server-types",
+      "apollo-server-types"
+    ],
+    "out": [
+      "lru-cache"
+    ]
+  },
+  "path-parse": {
+    "in": [
+      "resolve"
+    ],
+    "out": []
+  },
+  "deep-is": {
+    "in": [
+      "optionator"
+    ],
+    "out": []
+  },
+  "@babel/helper-replace-supers": {
+    "in": [
+      "@babel/helper-module-transforms",
+      "@babel/helper-create-class-features-plugin",
+      "@babel/plugin-transform-classes",
+      "@babel/plugin-transform-object-super"
+    ],
+    "out": [
+      "@babel/helper-member-expression-to-functions",
+      "@babel/helper-optimise-call-expression",
+      "@babel/traverse",
+      "@babel/types"
+    ]
+  },
+  "word-wrap": {
+    "in": [
+      "optionator"
+    ],
+    "out": []
+  },
+  "yocto-queue": {
+    "in": [
+      "p-limit"
+    ],
+    "out": []
+  },
+  "prelude-ls": {
+    "in": [
+      "optionator",
+      "levn",
+      "type-check",
+      "type-check"
+    ],
+    "out": []
+  },
+  "levn": {
+    "in": [
+      "optionator"
+    ],
+    "out": [
+      "prelude-ls",
+      "type-check"
+    ]
+  },
+  "type-check": {
+    "in": [
+      "levn"
+    ],
+    "out": [
+      "prelude-ls"
+    ]
+  },
+  "abbrev": {
+    "in": [
+      "nopt"
+    ],
+    "out": []
+  },
+  "humanize-ms": {
+    "in": [
+      "agentkeepalive"
+    ],
+    "out": [
+      "ms"
+    ]
+  },
+  "apollo-server-env": {
+    "in": [
+      "apollo-server-types",
+      "apollo-datasource",
+      "apollo-server-types"
+    ],
+    "out": [
+      "node-fetch",
+      "util.promisify"
+    ]
+  },
+  "fast-levenshtein": {
+    "in": [
+      "optionator"
+    ],
+    "out": [
+      "fastest-levenshtein"
+    ]
+  },
+  "apollo-server-errors": {
+    "in": [
+      "apollo-server-core"
+    ],
+    "out": []
+  },
+  "@apollographql/apollo-tools": {
+    "in": [
+      "apollo-server-core"
+    ],
+    "out": []
+  },
+  "loglevel": {
+    "in": [
+      "apollo-server-core"
+    ],
+    "out": []
+  },
+  "graphql-tag": {
+    "in": [
+      "apollo-server-core"
+    ],
+    "out": []
+  },
+  "resolve-from": {
+    "in": [
+      "@graphql-tools/import",
+      "@graphql-tools/import"
+    ],
+    "out": []
+  },
+  "babel-plugin-dynamic-import-node": {
+    "in": [
+      "@babel/plugin-transform-modules-commonjs"
+    ],
+    "out": [
+      "object.assign"
+    ]
+  },
+  "array-union": {
+    "in": [
+      "globby"
+    ],
+    "out": []
+  },
+  "@apollographql/graphql-playground-html": {
+    "in": [
+      "apollo-server-core"
+    ],
+    "out": []
+  },
+  "dir-glob": {
+    "in": [
+      "globby"
+    ],
+    "out": [
+      "path-type"
+    ]
+  },
+  "fast-json-stable-stringify": {
+    "in": [
+      "apollo-server-core"
+    ],
+    "out": []
+  },
+  "apollo-datasource": {
+    "in": [
+      "apollo-server-core"
+    ],
+    "out": [
+      "apollo-server-caching",
+      "apollo-server-env"
+    ]
+  },
+  "reusify": {
+    "in": [
+      "fastq"
+    ],
+    "out": []
+  },
+  "tar": {
+    "in": [
+      "@mapbox/node-pre-gyp"
+    ],
+    "out": [
+      "chownr",
+      "fs-minipass",
+      "minipass",
+      "minizlib",
+      "mkdirp",
+      "yallist"
+    ]
+  },
+  "read-pkg-up": {
+    "in": [
+      "yargs"
+    ],
+    "out": [
+      "find-up",
+      "read-pkg",
+      "type-fest"
+    ]
+  },
+  "decamelize": {
+    "in": [
+      "yargs"
+    ],
+    "out": []
+  },
+  "@types/glob": {
+    "in": [
+      "globby"
+    ],
+    "out": [
+      "@types/minimatch",
+      "@types/node"
+    ]
+  },
+  "@graphql-tools/url-loader": {
+    "in": [
+      "graphql-tools"
+    ],
+    "out": [
+      "@graphql-tools/delegate",
+      "@graphql-tools/utils",
+      "@graphql-tools/wrap",
+      "@microsoft/fetch-event-source",
+      "@types/websocket",
+      "abort-controller",
+      "cross-fetch",
+      "extract-files",
+      "form-data",
+      "graphql-ws",
+      "is-promise",
+      "isomorphic-ws",
+      "lodash",
+      "meros",
+      "subscriptions-transport-ws",
+      "sync-fetch",
+      "tslib",
+      "valid-url",
+      "ws"
+    ]
+  },
+  "@apollo/protobufjs": {
+    "in": [
+      "apollo-reporting-protobuf"
+    ],
+    "out": [
+      "@protobufjs/aspromise",
+      "@protobufjs/base64",
+      "@protobufjs/codegen",
+      "@protobufjs/eventemitter",
+      "@protobufjs/fetch",
+      "@protobufjs/float",
+      "@protobufjs/inquire",
+      "@protobufjs/path",
+      "@protobufjs/pool",
+      "@protobufjs/utf8",
+      "@types/long",
+      "@types/node",
+      "long"
+    ],
+    "deprecated": true
+  },
+  "retry": {
+    "in": [
+      "async-retry",
+      "async-retry"
+    ],
+    "out": []
+  },
+  "@babel/helper-optimise-call-expression": {
+    "in": [
+      "@babel/helper-replace-supers",
+      "@babel/helper-create-class-features-plugin",
+      "@babel/plugin-transform-classes"
+    ],
+    "out": [
+      "@babel/types"
+    ]
+  },
+  "@babel/helper-member-expression-to-functions": {
+    "in": [
+      "@babel/helper-replace-supers",
+      "@babel/helper-create-class-features-plugin"
+    ],
+    "out": [
+      "@babel/types"
+    ]
+  },
+  "util.promisify": {
+    "in": [
+      "apollo-server-env",
+      "apollo-server-env",
+      "apollo-server-env"
+    ],
+    "out": [
+      "call-bind",
+      "define-properties",
+      "for-each",
+      "has-symbols",
+      "object.getownpropertydescriptors"
+    ]
+  },
+  "os-locale": {
+    "in": [
+      "yargs"
+    ],
+    "out": [
+      "execa",
+      "lcid",
+      "mem"
+    ]
+  },
+  "apollo-graphql": {
+    "in": [
+      "apollo-server-core"
+    ],
+    "out": [
+      "core-js-pure",
+      "lodash.sortby",
+      "sha.js"
+    ]
+  },
+  "fastest-levenshtein": {
+    "in": [
+      "fast-levenshtein"
+    ],
+    "out": []
+  },
+  "is-core-module": {
+    "in": [
+      "resolve"
+    ],
+    "out": [
+      "has"
+    ]
+  },
+  "camelcase": {
+    "in": [
+      "yargs",
+      "yargs-parser"
+    ],
+    "out": []
+  },
+  "@nodelib/fs.scandir": {
+    "in": [
+      "@nodelib/fs.walk"
+    ],
+    "out": [
+      "@nodelib/fs.stat",
+      "run-parallel"
+    ]
+  },
+  "raw-body": {
+    "in": [
+      "body-parser",
+      "body-parser"
+    ],
+    "out": [
+      "bytes",
+      "http-errors",
+      "iconv-lite",
+      "unpipe"
+    ]
+  },
+  "@babel/helper-module-imports": {
+    "in": [
+      "@babel/helper-module-transforms",
+      "@babel/helper-builder-react-jsx-experimental"
+    ],
+    "out": [
+      "@babel/types"
+    ]
+  },
+  "path-type": {
+    "in": [
+      "dir-glob"
+    ],
+    "out": []
+  },
+  "yargs-parser": {
+    "in": [
+      "yargs"
+    ],
+    "out": [
+      "camelcase"
+    ]
+  },
+  "glob": {
+    "in": [
+      "rimraf"
+    ],
+    "out": [
+      "fs.realpath",
+      "inflight",
+      "inherits",
+      "minimatch",
+      "once",
+      "path-is-absolute"
+    ]
+  },
+  "chownr": {
+    "in": [
+      "tar"
+    ],
+    "out": []
+  },
+  "forwarded": {
+    "in": [
+      "proxy-addr"
+    ],
+    "out": []
+  },
+  "fs-minipass": {
+    "in": [
+      "tar"
+    ],
+    "out": [
+      "minipass"
+    ]
+  },
+  "minizlib": {
+    "in": [
+      "tar"
+    ],
+    "out": [
+      "minipass",
+      "yallist"
+    ]
+  },
+  "mkdirp": {
+    "in": [
+      "tar"
+    ],
+    "out": []
+  },
+  "abort-controller": {
+    "in": [
+      "@graphql-tools/url-loader"
+    ],
+    "out": [
+      "event-target-shim"
+    ]
+  },
+  "find-up": {
+    "in": [
+      "read-pkg-up"
+    ],
+    "out": [
+      "locate-path",
+      "path-exists"
+    ]
+  },
+  "@types/minimatch": {
+    "in": [
+      "@types/glob"
+    ],
+    "out": []
+  },
+  "@types/websocket": {
+    "in": [
+      "@graphql-tools/url-loader"
+    ],
+    "out": [
+      "@types/node"
+    ]
+  },
+  "isomorphic-ws": {
+    "in": [
+      "@graphql-tools/url-loader"
+    ],
+    "out": []
+  },
+  "subscriptions-transport-ws": {
+    "in": [
+      "@graphql-tools/url-loader"
+    ],
+    "out": [
+      "backo2",
+      "eventemitter3",
+      "iterall",
+      "lodash.assign",
+      "lodash.isobject",
+      "lodash.isstring",
+      "symbol-observable",
+      "ws"
+    ]
+  },
+  "sync-fetch": {
+    "in": [
+      "@graphql-tools/url-loader"
+    ],
+    "out": [
+      "buffer",
+      "node-fetch"
+    ]
+  },
+  "for-each": {
+    "in": [
+      "util.promisify"
+    ],
+    "out": [
+      "is-callable"
+    ]
+  },
+  "object.getownpropertydescriptors": {
+    "in": [
+      "util.promisify"
+    ],
+    "out": [
+      "call-bind",
+      "define-properties",
+      "es-abstract"
+    ]
+  },
+  "run-parallel": {
+    "in": [
+      "@nodelib/fs.scandir"
+    ],
+    "out": [
+      "queue-microtask"
+    ]
+  },
+  "@nodelib/fs.stat": {
+    "in": [
+      "fast-glob"
+    ],
+    "out": []
+  },
+  "http-errors": {
+    "in": [
+      "raw-body"
+    ],
+    "out": [
+      "depd",
+      "inherits",
+      "setprototypeof",
+      "statuses",
+      "toidentifier"
+    ]
+  },
+  "core-js-pure": {
+    "in": [
+      "apollo-graphql"
+    ],
+    "out": []
+  },
+  "graphql-ws": {
+    "in": [
+      "@graphql-tools/url-loader"
+    ],
+    "out": []
+  },
+  "media-typer": {
+    "in": [
+      "type-is",
+      "body-parser"
+    ],
+    "out": []
+  },
+  "minipass": {
+    "in": [
+      "fs-minipass"
+    ],
+    "out": [
+      "yallist"
+    ]
+  },
+  "backo2": {
+    "in": [
+      "subscriptions-transport-ws"
+    ],
+    "out": []
+  },
+  "buffer-equal-constant-time": {
+    "in": [
+      "jwa"
+    ],
+    "out": []
+  },
+  "lodash.isobject": {
+    "in": [
+      "subscriptions-transport-ws"
+    ],
+    "out": []
+  },
+  "lodash.assign": {
+    "in": [
+      "subscriptions-transport-ws"
+    ],
+    "out": []
+  },
+  "symbol-observable": {
+    "in": [
+      "subscriptions-transport-ws"
+    ],
+    "out": []
+  },
+  "eventemitter3": {
+    "in": [
+      "subscriptions-transport-ws"
+    ],
+    "out": []
+  },
+  "iterall": {
+    "in": [
+      "subscriptions-transport-ws"
+    ],
+    "out": []
+  },
+  "sinon": {
+    "in": [
+      "intercom-client"
+    ],
+    "out": [
+      "@sinonjs/commons",
+      "@sinonjs/fake-timers",
+      "@sinonjs/samsam",
+      "diff",
+      "nise",
+      "supports-color"
+    ]
+  },
+  "@babel/helper-create-class-features-plugin": {
+    "in": [
+      "@babel/plugin-proposal-class-properties"
+    ],
+    "out": [
+      "@babel/helper-function-name",
+      "@babel/helper-member-expression-to-functions",
+      "@babel/helper-optimise-call-expression",
+      "@babel/helper-plugin-utils",
+      "@babel/helper-replace-supers",
+      "@babel/helper-split-export-declaration"
+    ]
+  },
+  "queue-microtask": {
+    "in": [
+      "run-parallel"
+    ],
+    "out": []
+  },
+  "webidl-conversions": {
+    "in": [
+      "jsdom"
+    ],
+    "out": []
+  },
+  "toidentifier": {
+    "in": [
+      "http-errors"
+    ],
+    "out": []
+  },
+  "merge2": {
+    "in": [
+      "fast-glob"
+    ],
+    "out": []
+  },
+  "@graphql-tools/stitch": {
+    "in": [
+      "graphql-tools"
+    ],
+    "out": [
+      "@graphql-tools/batch-delegate",
+      "@graphql-tools/delegate",
+      "@graphql-tools/merge",
+      "@graphql-tools/schema",
+      "@graphql-tools/utils",
+      "@graphql-tools/wrap",
+      "tslib"
+    ]
+  },
+  "diff": {
+    "in": [
+      "sinon"
+    ],
+    "out": []
+  },
+  "nise": {
+    "in": [
+      "sinon"
+    ],
+    "out": [
+      "@sinonjs/commons",
+      "@sinonjs/fake-timers",
+      "@sinonjs/text-encoding",
+      "just-extend",
+      "path-to-regexp"
+    ]
+  },
+  "@sinonjs/samsam": {
+    "in": [
+      "sinon"
+    ],
+    "out": [
+      "@sinonjs/commons",
+      "lodash.get",
+      "type-detect"
+    ]
+  },
+  "lcid": {
+    "in": [
+      "os-locale"
+    ],
+    "out": [
+      "invert-kv"
+    ]
+  },
+  "@sinonjs/fake-timers": {
+    "in": [
+      "nise"
+    ],
+    "out": [
+      "@sinonjs/commons"
+    ]
+  },
+  "execa": {
+    "in": [
+      "os-locale"
+    ],
+    "out": [
+      "cross-spawn",
+      "get-stream",
+      "human-signals",
+      "is-stream",
+      "merge-stream",
+      "npm-run-path",
+      "onetime",
+      "signal-exit",
+      "strip-final-newline"
+    ]
+  },
+  "long": {
+    "in": [
+      "@apollo/protobufjs",
+      "@apollo/protobufjs"
+    ],
+    "out": []
+  },
+  "cheerio-select": {
+    "in": [
+      "cheerio"
+    ],
+    "out": [
+      "css-select",
+      "css-what",
+      "domelementtype",
+      "domhandler",
+      "domutils"
+    ]
+  },
+  "@types/long": {
+    "in": [
+      "@apollo/protobufjs",
+      "@apollo/protobufjs"
+    ],
+    "out": []
+  },
+  "@protobufjs/utf8": {
+    "in": [
+      "@apollo/protobufjs",
+      "@apollo/protobufjs"
+    ],
+    "out": []
+  },
+  "@protobufjs/inquire": {
+    "in": [
+      "@apollo/protobufjs",
+      "@protobufjs/fetch",
+      "@apollo/protobufjs"
+    ],
+    "out": []
+  },
+  "@protobufjs/pool": {
+    "in": [
+      "@apollo/protobufjs",
+      "@apollo/protobufjs"
+    ],
+    "out": []
+  },
+  "@protobufjs/path": {
+    "in": [
+      "@apollo/protobufjs",
+      "@apollo/protobufjs"
+    ],
+    "out": []
+  },
+  "@protobufjs/eventemitter": {
+    "in": [
+      "@apollo/protobufjs",
+      "@apollo/protobufjs"
+    ],
+    "out": []
+  },
+  "@protobufjs/float": {
+    "in": [
+      "@apollo/protobufjs",
+      "@apollo/protobufjs"
+    ],
+    "out": []
+  },
+  "@protobufjs/fetch": {
+    "in": [
+      "@apollo/protobufjs",
+      "@apollo/protobufjs"
+    ],
+    "out": [
+      "@protobufjs/aspromise",
+      "@protobufjs/inquire"
+    ]
+  },
+  "just-extend": {
+    "in": [
+      "nise"
+    ],
+    "out": []
+  },
+  "lodash.get": {
+    "in": [
+      "@sinonjs/samsam"
+    ],
+    "out": []
+  },
+  "invert-kv": {
+    "in": [
+      "lcid"
+    ],
+    "out": []
+  },
+  "lodash.sortby": {
+    "in": [
+      "apollo-graphql"
+    ],
+    "out": []
+  },
+  "@sinonjs/text-encoding": {
+    "in": [
+      "nise"
+    ],
+    "out": []
+  },
+  "strip-final-newline": {
+    "in": [
+      "execa"
+    ],
+    "out": []
+  },
+  "human-signals": {
+    "in": [
+      "execa"
+    ],
+    "out": []
+  },
+  "cross-spawn": {
+    "in": [
+      "execa"
+    ],
+    "out": [
+      "path-key",
+      "shebang-command",
+      "which"
+    ]
+  },
+  "get-stream": {
+    "in": [
+      "execa"
+    ],
+    "out": []
+  },
+  "@babel/plugin-transform-react-jsx": {
+    "in": [
+      "babel-preset-fbjs"
+    ],
+    "out": [
+      "@babel/helper-builder-react-jsx",
+      "@babel/helper-builder-react-jsx-experimental",
+      "@babel/helper-plugin-utils",
+      "@babel/plugin-syntax-jsx"
+    ]
+  },
+  "merge-stream": {
+    "in": [
+      "execa"
+    ],
+    "out": []
+  },
+  "is-stream": {
+    "in": [
+      "execa"
+    ],
+    "out": []
+  },
+  "onetime": {
+    "in": [
+      "execa"
+    ],
+    "out": [
+      "mimic-fn"
+    ]
+  },
+  "npm-run-path": {
+    "in": [
+      "execa"
+    ],
+    "out": [
+      "path-key"
+    ]
+  },
+  "signal-exit": {
+    "in": [
+      "execa",
+      "gauge"
+    ],
+    "out": []
+  },
+  "css-what": {
+    "in": [
+      "cheerio-select",
+      "css-select"
+    ],
+    "out": []
+  },
+  "css-select": {
+    "in": [
+      "cheerio-select"
+    ],
+    "out": [
+      "boolbase",
+      "css-what",
+      "domhandler",
+      "domutils",
+      "nth-check"
+    ]
+  },
+  "mem": {
+    "in": [
+      "os-locale"
+    ],
+    "out": [
+      "map-age-cleaner",
+      "mimic-fn"
+    ]
+  },
+  "meros": {
+    "in": [
+      "@graphql-tools/url-loader"
+    ],
+    "out": []
+  },
+  "which": {
+    "in": [
+      "cross-spawn"
+    ],
+    "out": [
+      "isexe"
+    ]
+  },
+  "shebang-command": {
+    "in": [
+      "cross-spawn"
+    ],
+    "out": [
+      "shebang-regex"
+    ]
+  },
+  "@protobufjs/aspromise": {
+    "in": [
+      "@apollo/protobufjs",
+      "@apollo/protobufjs"
+    ],
+    "out": []
+  },
+  "path-key": {
+    "in": [
+      "npm-run-path"
+    ],
+    "out": []
+  },
+  "@babel/helper-builder-react-jsx": {
+    "in": [
+      "@babel/plugin-transform-react-jsx"
+    ],
+    "out": [
+      "@babel/helper-annotate-as-pure",
+      "@babel/types"
+    ]
+  },
+  "@babel/helper-builder-react-jsx-experimental": {
+    "in": [
+      "@babel/plugin-transform-react-jsx"
+    ],
+    "out": [
+      "@babel/helper-annotate-as-pure",
+      "@babel/helper-module-imports",
+      "@babel/types"
+    ]
+  },
+  "mimic-fn": {
+    "in": [
+      "mem"
+    ],
+    "out": []
+  },
+  "nth-check": {
+    "in": [
+      "css-select"
+    ],
+    "out": [
+      "boolbase"
+    ]
+  },
+  "boolbase": {
+    "in": [
+      "nth-check"
+    ],
+    "out": []
+  },
+  "map-age-cleaner": {
+    "in": [
+      "mem"
+    ],
+    "out": [
+      "p-defer"
+    ]
+  },
+  "shebang-regex": {
+    "in": [
+      "shebang-command"
+    ],
+    "out": []
+  },
+  "inflight": {
+    "in": [
+      "glob",
+      "glob"
+    ],
+    "out": [
+      "once",
+      "wrappy"
+    ]
+  },
+  "fs.realpath": {
+    "in": [
+      "glob",
+      "glob"
+    ],
+    "out": []
+  },
+  "once": {
+    "in": [
+      "formidable"
+    ],
+    "out": [
+      "wrappy"
+    ]
+  },
+  "minimatch": {
+    "in": [
+      "glob",
+      "glob"
+    ],
+    "out": [
+      "brace-expansion"
+    ]
+  },
+  "isexe": {
+    "in": [
+      "which"
+    ],
+    "out": []
+  },
+  "@babel/helper-annotate-as-pure": {
+    "in": [
+      "@babel/plugin-transform-template-literals",
+      "@babel/plugin-transform-classes"
+    ],
+    "out": [
+      "@babel/types"
+    ]
+  },
+  "p-defer": {
+    "in": [
+      "map-age-cleaner"
+    ],
+    "out": []
+  },
+  "read-pkg": {
+    "in": [
+      "read-pkg-up"
+    ],
+    "out": [
+      "@types/normalize-package-data",
+      "normalize-package-data",
+      "parse-json",
+      "type-fest"
+    ]
+  },
+  "brace-expansion": {
+    "in": [
+      "minimatch"
+    ],
+    "out": [
+      "balanced-match"
+    ]
+  },
+  "event-target-shim": {
+    "in": [
+      "abort-controller"
+    ],
+    "out": []
+  },
+  "ecdsa-sig-formatter": {
+    "in": [
+      "jwa"
+    ],
+    "out": [
+      "base64url",
+      "safe-buffer"
+    ]
+  },
+  "locate-path": {
+    "in": [
+      "find-up"
+    ],
+    "out": [
+      "p-locate"
+    ]
+  },
+  "path-exists": {
+    "in": [
+      "find-up"
+    ],
+    "out": []
+  },
+  "normalize-package-data": {
+    "in": [
+      "read-pkg"
+    ],
+    "out": [
+      "hosted-git-info",
+      "resolve",
+      "semver",
+      "validate-npm-package-license"
+    ]
+  },
+  "@types/normalize-package-data": {
+    "in": [
+      "read-pkg"
+    ],
+    "out": []
+  },
+  "parse-json": {
+    "in": [
+      "read-pkg"
+    ],
+    "out": [
+      "@babel/code-frame",
+      "error-ex",
+      "json-parse-even-better-errors",
+      "lines-and-columns"
+    ]
+  },
+  "balanced-match": {
+    "in": [
+      "brace-expansion"
+    ],
+    "out": []
+  },
+  "@protobufjs/codegen": {
+    "in": [
+      "@apollo/protobufjs",
+      "@apollo/protobufjs"
+    ],
+    "out": []
+  },
+  "p-locate": {
+    "in": [
+      "locate-path"
+    ],
+    "out": [
+      "p-limit"
+    ]
+  },
+  "@protobufjs/base64": {
+    "in": [
+      "@apollo/protobufjs",
+      "@apollo/protobufjs"
+    ],
+    "out": []
+  },
+  "@microsoft/fetch-event-source": {
+    "in": [
+      "@graphql-tools/url-loader"
+    ],
+    "out": []
+  },
+  "@babel/plugin-transform-function-name": {
+    "in": [
+      "babel-preset-fbjs"
+    ],
+    "out": [
+      "@babel/helper-function-name",
+      "@babel/helper-plugin-utils"
+    ]
+  },
+  "hosted-git-info": {
+    "in": [
+      "normalize-package-data"
+    ],
+    "out": [
+      "lru-cache"
+    ]
+  },
+  "validate-npm-package-license": {
+    "in": [
+      "normalize-package-data"
+    ],
+    "out": [
+      "spdx-correct",
+      "spdx-expression-parse"
+    ]
+  },
+  "json-parse-even-better-errors": {
+    "in": [
+      "parse-json"
+    ],
+    "out": []
+  },
+  "error-ex": {
+    "in": [
+      "parse-json"
+    ],
+    "out": [
+      "is-arrayish"
+    ]
+  },
+  "lines-and-columns": {
+    "in": [
+      "parse-json"
+    ],
+    "out": []
+  },
+  "@babel/plugin-transform-computed-properties": {
+    "in": [
+      "babel-preset-fbjs"
+    ],
+    "out": [
+      "@babel/helper-plugin-utils"
+    ]
+  },
+  "spdx-correct": {
+    "in": [
+      "validate-npm-package-license"
+    ],
+    "out": [
+      "spdx-expression-parse",
+      "spdx-license-ids"
+    ]
+  },
+  "spdx-expression-parse": {
+    "in": [
+      "spdx-correct"
+    ],
+    "out": [
+      "spdx-exceptions",
+      "spdx-license-ids"
+    ]
+  },
+  "is-arrayish": {
+    "in": [
+      "error-ex"
+    ],
+    "out": []
+  },
+  "make-dir": {
+    "in": [
+      "@mapbox/node-pre-gyp"
+    ],
+    "out": [
+      "semver"
+    ]
+  },
+  "spdx-license-ids": {
+    "in": [
+      "spdx-correct"
+    ],
+    "out": []
+  },
+  "spdx-exceptions": {
+    "in": [
+      "spdx-expression-parse"
+    ],
+    "out": []
+  },
+  "draft-js-prism": {
+    "in": [
+      "draft-js-prism-plugin"
+    ],
+    "out": [
+      "extend",
+      "immutable"
+    ]
+  },
+  "extend": {
+    "in": [
+      "draft-js-prism"
+    ],
+    "out": []
+  },
+  "micromatch": {
+    "in": [
+      "fast-glob",
+      "@graphql-tools/git-loader"
+    ],
+    "out": [
+      "braces",
+      "picomatch"
+    ]
+  },
+  "node-int64": {
+    "in": [
+      "bser"
+    ],
+    "out": []
+  },
+  "braces": {
+    "in": [
+      "micromatch"
+    ],
+    "out": [
+      "fill-range"
+    ]
+  },
+  "fill-range": {
+    "in": [
+      "braces"
+    ],
+    "out": [
+      "to-regex-range"
+    ]
+  },
+  "to-regex-range": {
+    "in": [
+      "fill-range"
+    ],
+    "out": [
+      "is-number"
+    ]
+  },
+  "is-number": {
+    "in": [
+      "to-regex-range"
+    ],
+    "out": []
+  },
+  "@babel/plugin-transform-literals": {
+    "in": [
+      "babel-preset-fbjs"
+    ],
+    "out": [
+      "@babel/helper-plugin-utils"
+    ]
+  },
+  "@babel/plugin-transform-classes": {
+    "in": [
+      "babel-preset-fbjs"
+    ],
+    "out": [
+      "@babel/helper-annotate-as-pure",
+      "@babel/helper-define-map",
+      "@babel/helper-function-name",
+      "@babel/helper-optimise-call-expression",
+      "@babel/helper-plugin-utils",
+      "@babel/helper-replace-supers",
+      "@babel/helper-split-export-declaration",
+      "globals"
+    ]
+  },
+  "buffer-writer": {
+    "in": [
+      "pg"
+    ],
+    "out": []
+  },
+  "npmlog": {
+    "in": [
+      "@mapbox/node-pre-gyp"
+    ],
+    "out": [
+      "are-we-there-yet",
+      "console-control-strings",
+      "gauge",
+      "set-blocking"
+    ]
+  },
+  "@babel/helper-define-map": {
+    "in": [
+      "@babel/plugin-transform-classes"
+    ],
+    "out": [
+      "@babel/helper-function-name",
+      "@babel/types",
+      "lodash"
+    ]
+  },
+  "gauge": {
+    "in": [
+      "npmlog"
+    ],
+    "out": [
+      "aproba",
+      "color-support",
+      "console-control-strings",
+      "has-unicode",
+      "signal-exit",
+      "string-width",
+      "strip-ansi",
+      "wide-align"
+    ]
+  },
+  "are-we-there-yet": {
+    "in": [
+      "npmlog"
+    ],
+    "out": [
+      "delegates",
+      "readable-stream"
+    ]
+  },
+  "console-control-strings": {
+    "in": [
+      "gauge"
+    ],
+    "out": []
+  },
+  "color-support": {
+    "in": [
+      "gauge"
+    ],
+    "out": []
+  },
+  "aproba": {
+    "in": [
+      "gauge"
+    ],
+    "out": []
+  },
+  "has-unicode": {
+    "in": [
+      "gauge"
+    ],
+    "out": []
+  },
+  "delegates": {
+    "in": [
+      "are-we-there-yet"
+    ],
+    "out": []
+  },
+  "wide-align": {
+    "in": [
+      "gauge"
+    ],
+    "out": [
+      "string-width"
+    ]
+  },
+  "@babel/plugin-transform-for-of": {
+    "in": [
+      "babel-preset-fbjs"
+    ],
+    "out": [
+      "@babel/helper-plugin-utils"
+    ]
+  },
+  "@babel/plugin-transform-object-super": {
+    "in": [
+      "babel-preset-fbjs"
+    ],
+    "out": [
+      "@babel/helper-plugin-utils",
+      "@babel/helper-replace-supers"
+    ]
+  },
+  "@babel/plugin-transform-destructuring": {
+    "in": [
+      "babel-preset-fbjs"
+    ],
+    "out": [
+      "@babel/helper-plugin-utils"
+    ]
+  },
+  "@babel/plugin-transform-flow-strip-types": {
+    "in": [
+      "babel-preset-fbjs"
+    ],
+    "out": [
+      "@babel/helper-plugin-utils",
+      "@babel/plugin-syntax-flow"
+    ]
+  },
+  "@types/serve-static": {
+    "in": [
+      "@types/express"
+    ],
+    "out": [
+      "@types/express-serve-static-core",
+      "@types/mime"
+    ]
+  },
+  "@types/mime": {
+    "in": [
+      "@types/serve-static"
+    ],
+    "out": []
+  },
+  "@material-ui/utils": {
+    "in": [
+      "@material-ui/lab"
+    ],
+    "out": [
+      "@babel/runtime",
+      "@types/prop-types",
+      "@types/react-is",
+      "prop-types",
+      "react-is"
+    ]
+  },
+  "@types/react-is": {
+    "in": [
+      "@material-ui/utils"
+    ],
+    "out": [
+      "@types/react"
+    ]
+  },
+  "@graphql-tools/git-loader": {
+    "in": [
+      "graphql-tools"
+    ],
+    "out": [
+      "@graphql-tools/graphql-tag-pluck",
+      "@graphql-tools/utils",
+      "micromatch",
+      "tslib",
+      "unixify"
+    ]
+  },
+  "parse5-htmlparser2-tree-adapter": {
+    "in": [
+      "cheerio"
+    ],
+    "out": [
+      "parse5"
+    ]
+  },
+  "@types/accepts": {
+    "in": [
+      "apollo-server-express"
+    ],
+    "out": [
+      "@types/node"
+    ]
+  },
+  "@types/cors": {
+    "in": [
+      "apollo-server-express"
+    ],
+    "out": []
+  },
+  "jss-preset-default": {
+    "in": [
+      "react-jss"
+    ],
+    "out": [
+      "jss-camel-case",
+      "jss-compose",
+      "jss-default-unit",
+      "jss-expand",
+      "jss-extend",
+      "jss-global",
+      "jss-nested",
+      "jss-props-sort",
+      "jss-template",
+      "jss-vendor-prefixer"
+    ]
+  },
+  "jss-template": {
+    "in": [
+      "jss-preset-default"
+    ],
+    "out": [
+      "warning"
+    ]
+  },
+  "jss-compose": {
+    "in": [
+      "jss-preset-default"
+    ],
+    "out": [
+      "warning"
+    ]
+  },
+  "jss-vendor-prefixer": {
+    "in": [
+      "jss-preset-default"
+    ],
+    "out": [
+      "css-vendor"
+    ]
+  },
+  "jss-expand": {
+    "in": [
+      "jss-preset-default"
+    ],
+    "out": []
+  },
+  "jss-extend": {
+    "in": [
+      "jss-preset-default"
+    ],
+    "out": [
+      "warning"
+    ]
+  },
+  "jss-default-unit": {
+    "in": [
+      "jss-preset-default"
+    ],
+    "out": []
+  },
+  "jss-nested": {
+    "in": [
+      "jss-preset-default"
+    ],
+    "out": [
+      "warning"
+    ]
+  },
+  "jss-camel-case": {
+    "in": [
+      "jss-preset-default"
+    ],
+    "out": [
+      "hyphenate-style-name"
+    ]
+  },
+  "jss-props-sort": {
+    "in": [
+      "jss-preset-default"
+    ],
+    "out": []
+  },
+  "@types/linkify-it": {
+    "in": [
+      "@types/markdown-it"
+    ],
+    "out": []
+  },
+  "jss-global": {
+    "in": [
+      "jss-preset-default"
+    ],
+    "out": []
+  },
+  "warning": {
+    "in": [
+      "jss-nested",
+      "react-modal"
+    ],
+    "out": [
+      "loose-envify"
+    ]
+  },
+  "css-vendor": {
+    "in": [
+      "jss-vendor-prefixer"
+    ],
+    "out": [
+      "@babel/runtime",
+      "is-in-browser"
+    ]
+  },
+  "hyphenate-style-name": {
+    "in": [
+      "jss-camel-case"
+    ],
+    "out": []
+  },
+  "is-in-browser": {
+    "in": [
+      "css-vendor"
+    ],
+    "out": []
+  },
+  "@types/turndown": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": []
+  },
+  "react-modal": {
+    "in": [
+      "graphql-voyager"
+    ],
+    "out": [
+      "exenv",
+      "prop-types",
+      "react-lifecycles-compat",
+      "warning"
+    ]
+  },
+  "react-lifecycles-compat": {
+    "in": [
+      "react-modal"
+    ],
+    "out": []
+  },
+  "exenv": {
+    "in": [
+      "react-modal"
+    ],
+    "out": []
+  },
+  "cloudinary-core": {
+    "in": [
+      "LessWrong"
+    ],
+    "out": []
+  }
+}

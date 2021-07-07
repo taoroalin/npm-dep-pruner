@@ -1,0 +1,23 @@
+{
+  "name": "npm-dep-pruner",
+  "version": "1.0.0",
+  "description": "finds dependencies that can be easily pruned in npm projects",
+  "main": "index.js",
+  "dependencies": {
+    "node-fetch": "^2.6.1",
+    "npm-remote-ls": "^1.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/taoroalin/npm-dep-pruner"
+  },
+  "author": "taoroalin@gmail.com",
+  "license": "ISC",
+  "bin": {
+    "npm-dep-pruner": "./cli.js"
+  }
+}

@@ -1,0 +1,858 @@
+{
+	"npm-dep-pruner": {
+		"in": [],
+		"out": [
+			"node-fetch",
+			"npm-remote-ls",
+			"async",
+			"char-spinner",
+			"lodash",
+			"npm-package-arg",
+			"once",
+			"registry-url",
+			"request",
+			"semver",
+			"treeify",
+			"yargs",
+			"hosted-git-info",
+			"semver",
+			"lodash",
+			"wrappy",
+			"aws-sign2",
+			"aws4",
+			"caseless",
+			"combined-stream",
+			"extend",
+			"forever-agent",
+			"form-data",
+			"har-validator",
+			"http-signature",
+			"is-typedarray",
+			"isstream",
+			"json-stringify-safe",
+			"mime-types",
+			"oauth-sign",
+			"performance-now",
+			"qs",
+			"safe-buffer",
+			"tough-cookie",
+			"tunnel-agent",
+			"uuid",
+			"rc",
+			"cliui",
+			"decamelize",
+			"get-caller-file",
+			"lodash.assign",
+			"os-locale",
+			"read-pkg-up",
+			"require-directory",
+			"require-main-filename",
+			"set-blocking",
+			"string-width",
+			"which-module",
+			"window-size",
+			"y18n",
+			"yargs-parser",
+			"delayed-stream",
+			"ajv",
+			"har-schema",
+			"assert-plus",
+			"jsprim",
+			"sshpk",
+			"asynckit",
+			"combined-stream",
+			"mime-types",
+			"mime-db",
+			"safe-buffer",
+			"psl",
+			"punycode",
+			"deep-extend",
+			"ini",
+			"minimist",
+			"strip-json-comments",
+			"string-width",
+			"strip-ansi",
+			"wrap-ansi",
+			"lcid",
+			"find-up",
+			"read-pkg",
+			"code-point-at",
+			"is-fullwidth-code-point",
+			"strip-ansi",
+			"camelcase",
+			"lodash.assign",
+			"fast-deep-equal",
+			"fast-json-stable-stringify",
+			"json-schema-traverse",
+			"uri-js",
+			"assert-plus",
+			"extsprintf",
+			"json-schema",
+			"verror",
+			"asn1",
+			"assert-plus",
+			"bcrypt-pbkdf",
+			"dashdash",
+			"ecc-jsbn",
+			"getpass",
+			"jsbn",
+			"safer-buffer",
+			"tweetnacl",
+			"ansi-regex",
+			"string-width",
+			"strip-ansi",
+			"invert-kv",
+			"path-exists",
+			"pinkie-promise",
+			"load-json-file",
+			"normalize-package-data",
+			"path-type",
+			"number-is-nan",
+			"punycode",
+			"assert-plus",
+			"core-util-is",
+			"extsprintf",
+			"safer-buffer",
+			"tweetnacl",
+			"assert-plus",
+			"assert-plus",
+			"jsbn",
+			"safer-buffer",
+			"graceful-fs",
+			"parse-json",
+			"pify",
+			"pinkie-promise",
+			"strip-bom",
+			"pinkie",
+			"pinkie-promise",
+			"hosted-git-info",
+			"resolve",
+			"semver",
+			"validate-npm-package-license",
+			"graceful-fs",
+			"pify",
+			"pinkie-promise",
+			"error-ex",
+			"is-utf8",
+			"is-core-module",
+			"path-parse",
+			"spdx-correct",
+			"spdx-expression-parse",
+			"is-arrayish",
+			"has",
+			"spdx-exceptions",
+			"spdx-license-ids",
+			"spdx-expression-parse",
+			"spdx-license-ids",
+			"function-bind"
+		]
+	},
+	"node-fetch": {
+		"in": [
+			"npm-dep-pruner"
+		],
+		"out": []
+	},
+	"npm-remote-ls": {
+		"in": [
+			"npm-dep-pruner"
+		],
+		"out": []
+	},
+	"async": {
+		"in": [
+			"npm-remote-ls"
+		],
+		"out": []
+	},
+	"char-spinner": {
+		"in": [
+			"npm-remote-ls"
+		],
+		"out": []
+	},
+	"lodash": {
+		"in": [
+			"npm-remote-ls",
+			"async"
+		],
+		"out": []
+	},
+	"npm-package-arg": {
+		"in": [
+			"npm-remote-ls"
+		],
+		"out": []
+	},
+	"once": {
+		"in": [
+			"npm-remote-ls"
+		],
+		"out": []
+	},
+	"registry-url": {
+		"in": [
+			"npm-remote-ls"
+		],
+		"out": []
+	},
+	"request": {
+		"in": [
+			"npm-remote-ls"
+		],
+		"out": []
+	},
+	"semver": {
+		"in": [
+			"npm-remote-ls",
+			"npm-package-arg",
+			"normalize-package-data"
+		],
+		"out": []
+	},
+	"treeify": {
+		"in": [
+			"npm-remote-ls"
+		],
+		"out": []
+	},
+	"yargs": {
+		"in": [
+			"npm-remote-ls"
+		],
+		"out": []
+	},
+	"hosted-git-info": {
+		"in": [
+			"npm-package-arg",
+			"normalize-package-data"
+		],
+		"out": []
+	},
+	"wrappy": {
+		"in": [
+			"once"
+		],
+		"out": []
+	},
+	"aws-sign2": {
+		"in": [
+			"request"
+		],
+		"out": []
+	},
+	"aws4": {
+		"in": [
+			"request"
+		],
+		"out": []
+	},
+	"caseless": {
+		"in": [
+			"request"
+		],
+		"out": []
+	},
+	"combined-stream": {
+		"in": [
+			"request",
+			"form-data"
+		],
+		"out": []
+	},
+	"extend": {
+		"in": [
+			"request"
+		],
+		"out": []
+	},
+	"forever-agent": {
+		"in": [
+			"request"
+		],
+		"out": []
+	},
+	"form-data": {
+		"in": [
+			"request"
+		],
+		"out": []
+	},
+	"har-validator": {
+		"in": [
+			"request"
+		],
+		"out": []
+	},
+	"http-signature": {
+		"in": [
+			"request"
+		],
+		"out": []
+	},
+	"is-typedarray": {
+		"in": [
+			"request"
+		],
+		"out": []
+	},
+	"isstream": {
+		"in": [
+			"request"
+		],
+		"out": []
+	},
+	"json-stringify-safe": {
+		"in": [
+			"request"
+		],
+		"out": []
+	},
+	"mime-types": {
+		"in": [
+			"request",
+			"form-data"
+		],
+		"out": []
+	},
+	"oauth-sign": {
+		"in": [
+			"request"
+		],
+		"out": []
+	},
+	"performance-now": {
+		"in": [
+			"request"
+		],
+		"out": []
+	},
+	"qs": {
+		"in": [
+			"request"
+		],
+		"out": []
+	},
+	"safe-buffer": {
+		"in": [
+			"request",
+			"tunnel-agent"
+		],
+		"out": []
+	},
+	"tough-cookie": {
+		"in": [
+			"request"
+		],
+		"out": []
+	},
+	"tunnel-agent": {
+		"in": [
+			"request"
+		],
+		"out": []
+	},
+	"uuid": {
+		"in": [
+			"request"
+		],
+		"out": []
+	},
+	"rc": {
+		"in": [
+			"registry-url"
+		],
+		"out": []
+	},
+	"cliui": {
+		"in": [
+			"yargs"
+		],
+		"out": []
+	},
+	"decamelize": {
+		"in": [
+			"yargs"
+		],
+		"out": []
+	},
+	"get-caller-file": {
+		"in": [
+			"yargs"
+		],
+		"out": []
+	},
+	"lodash.assign": {
+		"in": [
+			"yargs",
+			"yargs-parser"
+		],
+		"out": []
+	},
+	"os-locale": {
+		"in": [
+			"yargs"
+		],
+		"out": []
+	},
+	"read-pkg-up": {
+		"in": [
+			"yargs"
+		],
+		"out": []
+	},
+	"require-directory": {
+		"in": [
+			"yargs"
+		],
+		"out": []
+	},
+	"require-main-filename": {
+		"in": [
+			"yargs"
+		],
+		"out": []
+	},
+	"set-blocking": {
+		"in": [
+			"yargs"
+		],
+		"out": []
+	},
+	"string-width": {
+		"in": [
+			"yargs",
+			"cliui",
+			"wrap-ansi"
+		],
+		"out": []
+	},
+	"which-module": {
+		"in": [
+			"yargs"
+		],
+		"out": []
+	},
+	"window-size": {
+		"in": [
+			"yargs"
+		],
+		"out": []
+	},
+	"y18n": {
+		"in": [
+			"yargs"
+		],
+		"out": []
+	},
+	"yargs-parser": {
+		"in": [
+			"yargs"
+		],
+		"out": []
+	},
+	"delayed-stream": {
+		"in": [
+			"combined-stream"
+		],
+		"out": []
+	},
+	"ajv": {
+		"in": [
+			"har-validator"
+		],
+		"out": []
+	},
+	"har-schema": {
+		"in": [
+			"har-validator"
+		],
+		"out": []
+	},
+	"assert-plus": {
+		"in": [
+			"http-signature",
+			"jsprim",
+			"sshpk",
+			"verror",
+			"dashdash",
+			"getpass"
+		],
+		"out": []
+	},
+	"jsprim": {
+		"in": [
+			"http-signature"
+		],
+		"out": []
+	},
+	"sshpk": {
+		"in": [
+			"http-signature"
+		],
+		"out": []
+	},
+	"asynckit": {
+		"in": [
+			"form-data"
+		],
+		"out": []
+	},
+	"mime-db": {
+		"in": [
+			"mime-types"
+		],
+		"out": []
+	},
+	"psl": {
+		"in": [
+			"tough-cookie"
+		],
+		"out": []
+	},
+	"punycode": {
+		"in": [
+			"tough-cookie",
+			"uri-js"
+		],
+		"out": []
+	},
+	"deep-extend": {
+		"in": [
+			"rc"
+		],
+		"out": []
+	},
+	"ini": {
+		"in": [
+			"rc"
+		],
+		"out": []
+	},
+	"minimist": {
+		"in": [
+			"rc"
+		],
+		"out": []
+	},
+	"strip-json-comments": {
+		"in": [
+			"rc"
+		],
+		"out": []
+	},
+	"strip-ansi": {
+		"in": [
+			"cliui",
+			"string-width",
+			"wrap-ansi"
+		],
+		"out": []
+	},
+	"wrap-ansi": {
+		"in": [
+			"cliui"
+		],
+		"out": []
+	},
+	"lcid": {
+		"in": [
+			"os-locale"
+		],
+		"out": []
+	},
+	"find-up": {
+		"in": [
+			"read-pkg-up"
+		],
+		"out": []
+	},
+	"read-pkg": {
+		"in": [
+			"read-pkg-up"
+		],
+		"out": []
+	},
+	"code-point-at": {
+		"in": [
+			"string-width"
+		],
+		"out": []
+	},
+	"is-fullwidth-code-point": {
+		"in": [
+			"string-width"
+		],
+		"out": []
+	},
+	"camelcase": {
+		"in": [
+			"yargs-parser"
+		],
+		"out": []
+	},
+	"fast-deep-equal": {
+		"in": [
+			"ajv"
+		],
+		"out": []
+	},
+	"fast-json-stable-stringify": {
+		"in": [
+			"ajv"
+		],
+		"out": []
+	},
+	"json-schema-traverse": {
+		"in": [
+			"ajv"
+		],
+		"out": []
+	},
+	"uri-js": {
+		"in": [
+			"ajv"
+		],
+		"out": []
+	},
+	"extsprintf": {
+		"in": [
+			"jsprim",
+			"verror"
+		],
+		"out": []
+	},
+	"json-schema": {
+		"in": [
+			"jsprim"
+		],
+		"out": []
+	},
+	"verror": {
+		"in": [
+			"jsprim"
+		],
+		"out": []
+	},
+	"asn1": {
+		"in": [
+			"sshpk"
+		],
+		"out": []
+	},
+	"bcrypt-pbkdf": {
+		"in": [
+			"sshpk"
+		],
+		"out": []
+	},
+	"dashdash": {
+		"in": [
+			"sshpk"
+		],
+		"out": []
+	},
+	"ecc-jsbn": {
+		"in": [
+			"sshpk"
+		],
+		"out": []
+	},
+	"getpass": {
+		"in": [
+			"sshpk"
+		],
+		"out": []
+	},
+	"jsbn": {
+		"in": [
+			"sshpk",
+			"ecc-jsbn"
+		],
+		"out": []
+	},
+	"safer-buffer": {
+		"in": [
+			"sshpk",
+			"asn1",
+			"ecc-jsbn"
+		],
+		"out": []
+	},
+	"tweetnacl": {
+		"in": [
+			"sshpk",
+			"bcrypt-pbkdf"
+		],
+		"out": []
+	},
+	"ansi-regex": {
+		"in": [
+			"strip-ansi"
+		],
+		"out": []
+	},
+	"invert-kv": {
+		"in": [
+			"lcid"
+		],
+		"out": []
+	},
+	"path-exists": {
+		"in": [
+			"find-up"
+		],
+		"out": []
+	},
+	"pinkie-promise": {
+		"in": [
+			"find-up",
+			"load-json-file",
+			"path-exists",
+			"path-type"
+		],
+		"out": []
+	},
+	"load-json-file": {
+		"in": [
+			"read-pkg"
+		],
+		"out": []
+	},
+	"normalize-package-data": {
+		"in": [
+			"read-pkg"
+		],
+		"out": []
+	},
+	"path-type": {
+		"in": [
+			"read-pkg"
+		],
+		"out": []
+	},
+	"number-is-nan": {
+		"in": [
+			"is-fullwidth-code-point"
+		],
+		"out": []
+	},
+	"core-util-is": {
+		"in": [
+			"verror"
+		],
+		"out": []
+	},
+	"graceful-fs": {
+		"in": [
+			"load-json-file",
+			"path-type"
+		],
+		"out": []
+	},
+	"parse-json": {
+		"in": [
+			"load-json-file"
+		],
+		"out": []
+	},
+	"pify": {
+		"in": [
+			"load-json-file",
+			"path-type"
+		],
+		"out": []
+	},
+	"strip-bom": {
+		"in": [
+			"load-json-file"
+		],
+		"out": []
+	},
+	"pinkie": {
+		"in": [
+			"pinkie-promise"
+		],
+		"out": []
+	},
+	"resolve": {
+		"in": [
+			"normalize-package-data"
+		],
+		"out": []
+	},
+	"validate-npm-package-license": {
+		"in": [
+			"normalize-package-data"
+		],
+		"out": []
+	},
+	"error-ex": {
+		"in": [
+			"parse-json"
+		],
+		"out": []
+	},
+	"is-utf8": {
+		"in": [
+			"strip-bom"
+		],
+		"out": []
+	},
+	"is-core-module": {
+		"in": [
+			"resolve"
+		],
+		"out": []
+	},
+	"path-parse": {
+		"in": [
+			"resolve"
+		],
+		"out": []
+	},
+	"spdx-correct": {
+		"in": [
+			"validate-npm-package-license"
+		],
+		"out": []
+	},
+	"spdx-expression-parse": {
+		"in": [
+			"validate-npm-package-license",
+			"spdx-correct"
+		],
+		"out": []
+	},
+	"is-arrayish": {
+		"in": [
+			"error-ex"
+		],
+		"out": []
+	},
+	"has": {
+		"in": [
+			"is-core-module"
+		],
+		"out": []
+	},
+	"spdx-exceptions": {
+		"in": [
+			"spdx-expression-parse"
+		],
+		"out": []
+	},
+	"spdx-license-ids": {
+		"in": [
+			"spdx-expression-parse",
+			"spdx-correct"
+		],
+		"out": []
+	},
+	"function-bind": {
+		"in": [
+			"has"
+		],
+		"out": []
+	}
+}

@@ -1,0 +1,284 @@
+[
+	[
+		{
+			"type": "begin",
+			"data": {
+				"path": {
+					"text": "node_modules/ajv/README.md"
+				}
+			}
+		},
+		{
+			"type": "match",
+			"data": {
+				"path": {
+					"text": "node_modules/ajv/README.md"
+				},
+				"lines": {
+					"text": "import Ajv from 'ajv';\n"
+				},
+				"line_number": 206,
+				"absolute_offset": 11881,
+				"submatches": [
+					{
+						"match": {
+							"text": "from 'ajv'"
+						},
+						"start": 11,
+						"end": 21
+					}
+				]
+			}
+		},
+		{
+			"type": "end",
+			"data": {
+				"path": {
+					"text": "node_modules/ajv/README.md"
+				},
+				"binary_offset": null,
+				"stats": {
+					"elapsed": {
+						"secs": 0,
+						"nanos": 698806800,
+						"human": "0.698807s"
+					},
+					"searches": 1,
+					"searches_with_match": 1,
+					"bytes_searched": 85598,
+					"bytes_printed": 295,
+					"matched_lines": 1,
+					"matches": 1
+				}
+			}
+		},
+		{
+			"data": {
+				"elapsed_total": {
+					"human": "90.967401s",
+					"nanos": 967401200,
+					"secs": 90
+				},
+				"stats": {
+					"bytes_printed": 295,
+					"bytes_searched": 85598,
+					"elapsed": {
+						"human": "0.698807s",
+						"nanos": 698806800,
+						"secs": 0
+					},
+					"matched_lines": 1,
+					"matches": 1,
+					"searches": 1,
+					"searches_with_match": 1
+				}
+			},
+			"type": "summary"
+		}
+	],
+	[
+		{
+			"type": "begin",
+			"data": {
+				"path": {
+					"text": "node_modules/async/CHANGELOG.md"
+				}
+			}
+		},
+		{
+			"type": "match",
+			"data": {
+				"path": {
+					"text": "node_modules/async/CHANGELOG.md"
+				},
+				"lines": {
+					"text": "We also provide Async as a collection of ES2015 modules. You can now `import {each} from 'async-es'` or `import waterfall from 'async-es/waterfall'`. If you are using only a few Async functions, and are using a ES bundler such as Rollup, this can significantly lower your build size.\n"
+				},
+				"line_number": 80,
+				"absolute_offset": 6636,
+				"submatches": [
+					{
+						"match": {
+							"text": "from 'async-"
+						},
+						"start": 84,
+						"end": 96
+					},
+					{
+						"match": {
+							"text": "from 'async-"
+						},
+						"start": 122,
+						"end": 134
+					}
+				]
+			}
+		},
+		{
+			"type": "match",
+			"data": {
+				"path": {
+					"text": "node_modules/async/CHANGELOG.md"
+				},
+				"lines": {
+					"text": "- Async is also available as a collection of ES2015 modules in the new `async-es` package. (`import {forEachSeries} from 'async-es'`) ([#984](https://github.com/caolan/async/issues/984), [#996](https://github.com/caolan/async/issues/996))\n"
+				},
+				"line_number": 102,
+				"absolute_offset": 9532,
+				"submatches": [
+					{
+						"match": {
+							"text": "from 'async-"
+						},
+						"start": 116,
+						"end": 128
+					}
+				]
+			}
+		},
+		{
+			"type": "end",
+			"data": {
+				"path": {
+					"text": "node_modules/async/CHANGELOG.md"
+				},
+				"binary_offset": null,
+				"stats": {
+					"elapsed": {
+						"secs": 0,
+						"nanos": 357617800,
+						"human": "0.357618s"
+					},
+					"searches": 1,
+					"searches_with_match": 1,
+					"bytes_searched": 29278,
+					"bytes_printed": 1070,
+					"matched_lines": 2,
+					"matches": 3
+				}
+			}
+		},
+		{
+			"data": {
+				"elapsed_total": {
+					"human": "91.107123s",
+					"nanos": 107123400,
+					"secs": 91
+				},
+				"stats": {
+					"bytes_printed": 1070,
+					"bytes_searched": 29278,
+					"elapsed": {
+						"human": "0.357618s",
+						"nanos": 357617800,
+						"secs": 0
+					},
+					"matched_lines": 2,
+					"matches": 3,
+					"searches": 1,
+					"searches_with_match": 1
+				}
+			},
+			"type": "summary"
+		}
+	],
+	[
+		{
+			"type": "begin",
+			"data": {
+				"path": {
+					"text": "node_modules/uri-js/README.md"
+				}
+			}
+		},
+		{
+			"type": "match",
+			"data": {
+				"path": {
+					"text": "node_modules/uri-js/README.md"
+				},
+				"lines": {
+					"text": "\timport * as URI from \"uri-js\";\n"
+				},
+				"line_number": 183,
+				"absolute_offset": 5468,
+				"submatches": [
+					{
+						"match": {
+							"text": "from \"uri-js\""
+						},
+						"start": 17,
+						"end": 30
+					}
+				]
+			}
+		},
+		{
+			"type": "match",
+			"data": {
+				"path": {
+					"text": "node_modules/uri-js/README.md"
+				},
+				"lines": {
+					"text": "\timport { parse, serialize, resolve, resolveComponents, normalize, equal, removeDotSegments, pctEncChar, pctDecChars, escapeComponent, unescapeComponent } from \"uri-js\";\n"
+				},
+				"line_number": 187,
+				"absolute_offset": 5558,
+				"submatches": [
+					{
+						"match": {
+							"text": "from \"uri-js\""
+						},
+						"start": 155,
+						"end": 168
+					}
+				]
+			}
+		},
+		{
+			"type": "end",
+			"data": {
+				"path": {
+					"text": "node_modules/uri-js/README.md"
+				},
+				"binary_offset": null,
+				"stats": {
+					"elapsed": {
+						"secs": 0,
+						"nanos": 238829000,
+						"human": "0.238829s"
+					},
+					"searches": 1,
+					"searches_with_match": 1,
+					"bytes_searched": 6416,
+					"bytes_printed": 700,
+					"matched_lines": 2,
+					"matches": 2
+				}
+			}
+		},
+		{
+			"data": {
+				"elapsed_total": {
+					"human": "90.886317s",
+					"nanos": 886317300,
+					"secs": 90
+				},
+				"stats": {
+					"bytes_printed": 700,
+					"bytes_searched": 6416,
+					"elapsed": {
+						"human": "0.238829s",
+						"nanos": 238829000,
+						"secs": 0
+					},
+					"matched_lines": 2,
+					"matches": 2,
+					"searches": 1,
+					"searches_with_match": 1
+				}
+			},
+			"type": "summary"
+		}
+	]
+]
